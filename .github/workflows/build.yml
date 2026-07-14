@@ -10,6 +10,11 @@
 #   3. Clone 失败时发 Telegram 告警，而不是静默失败
 #   4. 每个分类除了完整版 {Name}.yaml，额外生成 {Name}_DNS.yaml
 #      只保留 domain 相关字段，供 dns.forward 的 proxy_rule_set 使用
+#   5. [新增] DNS 精简版生成时，对 domain_keyword_set 的内容做格式校验，
+#      剔除内容本身是 IPv4/IPv6 格式的行 (已实测确认 blackmatrix7 部分规则集,
+#      如 WeChat.list, 把 IP 网段前缀错误标注为 DOMAIN-KEYWORD 类型，
+#      例如 "DOMAIN-KEYWORD,101.226.129." 这类实际是 IP 段而非真实域名关键词，
+#      不能仅信任上游的类型标注，必须做内容级二次校验)
 #
 # 未采纳的"改进" (逐条实测后确认不成立，予以保留原逻辑，未做无谓改动):
 #   - URL-REGEX 正则替换：实测对带/不带引号两种输入都能正确处理
@@ -207,6 +212,15 @@ jobs:
       # 只保留 domain_set / domain_suffix_set / domain_keyword_set /
       # domain_wildcard_set 这几个 key，供 dns.forward 的 proxy_rule_set 使用。
       # 复用 Step 5 已经产出的完整版 YAML 作为唯一数据源，保证两者不会漂移。
+      #
+      # [修复] 不能只信任上游的类型标注 (DOMAIN-KEYWORD/DOMAIN-WILDCARD 等)。
+      # 已实测确认 blackmatrix7 部分规则集 (如 WeChat.list) 把 IP 网段前缀
+      # 错误标注为 DOMAIN-KEYWORD 类型，例如：
+      #   DOMAIN-KEYWORD,101.226.129.
+      # 这类内容本质是 IP 段前缀，不是真实域名关键词，一旦进入 DNS 精简版，
+      # 对 dns.forward 的域名匹配毫无意义，纯粹是无效数据。
+      # 因此提取时额外做一次内容级格式校验，排除明显是 IPv4/IPv6 格式的行，
+      # 不管它被上游标注成哪个类型。
       # =======================================================================
       - name: Generate DNS-only variants
         run: |
@@ -219,18 +233,49 @@ jobs:
             dns_path="Rules_DNS/${rel_path%.yaml}_DNS.yaml"
             mkdir -p "$(dirname "$dns_path")"
 
+            # 注意: CI 环境 (ubuntu-latest) 默认 awk 是 mawk，正则引擎较弱，
+            # 嵌套区间量词 (如 {1,3} 套多层) 会导致 mawk 崩溃 (REcompile panic)，
+            # 因此下面故意用字符集+简单量词写法，避免复杂嵌套区间量词。
+            # 同时用 buffer 方式收集每个 key 下的内容，key 下一条有效内容都
+            # 没有时不输出该 key 行，避免产出空头 key。
             awk '
-            BEGIN { keep = 0 }
+            BEGIN { keep = 0; key_buffered = "" }
+            function flush_key() {
+              if (key_buffered != "" && buf_count > 0) {
+                print key_buffered
+                for (i = 1; i <= buf_count; i++) print buf[i]
+              }
+              key_buffered = ""
+              buf_count = 0
+            }
             /^domain_set:$|^domain_suffix_set:$|^domain_keyword_set:$|^domain_wildcard_set:$/ {
+              flush_key()
               keep = 1
-              print
+              key_buffered = $0
               next
             }
             /^[a-z_]+:$/ {
+              flush_key()
               keep = 0
               next
             }
-            keep == 1 && /^  - / { print; next }
+            keep == 1 && /^  - / {
+              # 内容级校验: 剔除本质是 IPv4 / IPv4 段前缀 / IPv6 / CIDR 的行,
+              # 不信任上游的类型标注 (blackmatrix7 部分规则集里
+              # DOMAIN-KEYWORD 类型下混有 IP 网段前缀，如 "101.226.129.")
+              line = $0
+              sub(/^  - "?/, "", line)
+              sub(/"?$/, "", line)
+              is_ipv4 = (line ~ /^[0-9.]+\.?$/ && line ~ /\./)
+              is_ipv4_cidr = (line ~ /^[0-9.]+\/[0-9]+$/)
+              is_ipv6 = (line ~ /:/ && line !~ /[g-zG-Z]/ && line !~ /[^0-9a-fA-F:.\/]/)
+              if (!is_ipv4 && !is_ipv4_cidr && !is_ipv6) {
+                buf_count++
+                buf[buf_count] = $0
+              }
+              next
+            }
+            END { flush_key() }
             ' "$file" > "$dns_path.body"
 
             if [ -s "$dns_path.body" ]; then
@@ -241,6 +286,7 @@ jobs:
                 echo "# 规则统计: ${rule_count}"
                 echo "# 用途: 仅供 dns.forward 的 proxy_rule_set 使用"
                 echo "# 来源: blackmatrix7/ios_rule_script (与完整版同源)"
+                echo "# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行"
                 echo ""
                 cat "$dns_path.body"
               } > "$dns_path"
