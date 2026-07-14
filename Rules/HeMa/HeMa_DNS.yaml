@@ -1,0 +1,18 @@
+# 规则名称: HeMa_DNS
+# 规则统计: 12
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - freshhema.com
+  - hemaapi.cn
+  - hemamax.com
+  - hemaopen.cn
+  - hemaos.com
+  - hemashare.cn
+  - marioall.com
+  - marioin.com
+  - mariowap.com
+  - rexpos.cn
+  - rextech.cn
+  - shyhhema.com

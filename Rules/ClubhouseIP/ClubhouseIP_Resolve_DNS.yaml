@@ -1,0 +1,10 @@
+# 规则名称: ClubhouseIP_Resolve_DNS
+# 规则统计: 4
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - ap-oversea-tls.agora.io
+  - ap-oversea.agora.io
+  - ap-oversea2.agora.io
+  - report-oversea.agora.io

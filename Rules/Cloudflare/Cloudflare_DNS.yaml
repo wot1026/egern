@@ -1,0 +1,56 @@
+# 规则名称: Cloudflare_DNS
+# 规则统计: 50
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - cf-ipfs.com
+  - cf-ns.com
+  - cf-ns.net
+  - cf-ns.site
+  - cf-ns.tech
+  - cftest5.cn
+  - cftest6.cn
+  - cftest7.com
+  - cftest8.com
+  - cloudflare-cn.com
+  - cloudflare-dns.com
+  - cloudflare-ipfs.com
+  - cloudflare-quic.com
+  - cloudflare.com
+  - cloudflare.net
+  - cloudflare.tv
+  - cloudflareaccess.com
+  - cloudflareapps.com
+  - cloudflarebolt.com
+  - cloudflareclient.com
+  - cloudflarecn.net
+  - cloudflareinsights-cn.com
+  - cloudflareinsights.com
+  - cloudflareok.com
+  - cloudflarepreview.com
+  - cloudflareprod.com
+  - cloudflareresolve.com
+  - cloudflaressl.com
+  - cloudflarestaging.com
+  - cloudflarestatus.com
+  - cloudflarestorage.com
+  - cloudflarestoragegw.com
+  - cloudflarestream.com
+  - cloudflaretest.com
+  - cloudflarewarp.com
+  - every1dns.net
+  - one.one.one
+  - pacloudflare.com
+  - pages.dev
+  - trycloudflare.com
+  - videodelivery.net
+  - warp.plus
+  - workers.dev
+  - 2400:cb00::/32
+  - 2405:8100::/32
+  - 2405:b500::/32
+  - 2606:4700::/32
+  - 2803:f800::/32
+  - 2a06:98c0::/29
+  - 2c0f:f248::/32

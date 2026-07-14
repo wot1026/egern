@@ -1,0 +1,19 @@
+# 规则名称: LinkedIn_DNS
+# 规则统计: 12
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - e122475.dscg.akamaiedge.net
+  - licdn.cn.cdn20.com
+  - linkedin.sc.omtrdc.net
+domain_suffix_set:
+  - bizographics.com
+  - l-0005.dc-msedge.net
+  - l-0005.l-msedge.net
+  - licdn.cn
+  - licdn.com
+  - linkedin.at
+  - linkedin.cn
+  - linkedin.com
+  - lnkd.in

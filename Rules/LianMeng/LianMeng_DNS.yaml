@@ -1,0 +1,19 @@
+# 规则名称: LianMeng_DNS
+# 规则统计: 13
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - 2333333333333.com
+  - bqtalk.com
+  - faceu.com
+  - faceu.com.cn
+  - faceu.mobi
+  - faceu.net
+  - heycan.com
+  - qmoji.mobi
+  - qmoji.net
+  - ulikecam.cn
+  - ulikecam.com
+  - ulikecam.mobi
+  - ulikecam.net

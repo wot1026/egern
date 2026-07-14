@@ -1,0 +1,22 @@
+# 规则名称: XianYu_DNS
+# 规则统计: 16
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - ewqcxz.com
+  - hjkhjkl.com
+  - iopiopl.com
+  - lkjujm.com
+  - mnbvdfg.com
+  - nfmrtfv.com
+  - poiuytw.com
+  - qazasd.com
+  - redfcv.com
+  - svfrrg.com
+  - tfgvb.com
+  - uyhjnm.com
+  - vbmnmy.com
+  - wsxsdf.com
+  - xcbbtf.com
+  - xianyu.mobi

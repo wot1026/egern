@@ -1,0 +1,9 @@
+# 规则名称: XiaoHongShu
+# 规则统计: 4
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - fengkongcloud.com
+  - xhscdn.com
+  - xhscdn.net
+  - xiaohongshu.com

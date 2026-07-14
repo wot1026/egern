@@ -1,0 +1,17 @@
+# 规则名称: Espn
+# 规则统计: 11
+# 来源: blackmatrix7/ios_rule_script
+
+domain_set:
+  - espn.api.edge.bamgrid.com
+  - espn.hb.omtrdc.net
+  - espndotcom.tt.omtrdc.net
+domain_suffix_set:
+  - dtci.co
+  - dtci.technology
+  - espn.co.uk
+  - espn.com
+  - espn.net
+  - espncdn.com
+  - espnqa.com
+  - watchespn.com

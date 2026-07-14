@@ -1,0 +1,10 @@
+# 规则名称: ZhihuAds_Resolve_DNS
+# 规则统计: 4
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - appcloud2.in.zhihu.com
+  - mqtt.zhihu.com
+  - sugar.zhihu.com
+  - 2402:4e00:1200:ed00:0:9089:6dac:96b6/128

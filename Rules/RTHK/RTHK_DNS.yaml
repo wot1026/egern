@@ -1,0 +1,20 @@
+# 规则名称: RTHK_DNS
+# 规则统计: 13
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - rthklive2-lh.akamaihd.net
+  - rthkradio1-live.akamaized.net
+  - rthkradio2-live.akamaized.net
+  - rthkradio3-live.akamaized.net
+  - rthkradio4-live.akamaized.net
+  - rthkradio5-live.akamaized.net
+  - rthkradiocmgrgb-live.akamaized.net
+  - rthkradiocnrhk-live.akamaized.net
+  - rthkradiopth-live.akamaized.net
+  - rthktv31-live.akamaized.net
+  - rthktv32-live.akamaized.net
+domain_suffix_set:
+  - rthk.hk
+  - rthk.org.hk

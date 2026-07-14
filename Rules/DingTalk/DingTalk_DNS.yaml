@@ -1,0 +1,17 @@
+# 规则名称: DingTalk_DNS
+# 规则统计: 11
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - ddurl.to
+  - dg-work.cn
+  - dingding.xin
+  - dingtalk.cn
+  - dingtalk.com
+  - dingtalk.com.cn
+  - dingtalk.net
+  - dingtalkapps.com
+  - laiwang.com
+  - lwurl.to
+  - realapp.xin

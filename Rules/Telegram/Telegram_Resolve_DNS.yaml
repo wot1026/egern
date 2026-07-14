@@ -1,0 +1,37 @@
+# 规则名称: Telegram_Resolve_DNS
+# 规则统计: 29
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - api.imem.app
+  - api.swiftgram.app
+domain_suffix_set:
+  - cdn-telegram.org
+  - comments.app
+  - contest.com
+  - graph.org
+  - legra.ph
+  - mbrx.app
+  - quiz.directory
+  - stel.com
+  - t.me
+  - tdesktop.com
+  - telega.one
+  - telegra.ph
+  - telegram-cdn.org
+  - telegram.dog
+  - telegram.me
+  - telegram.org
+  - telegram.space
+  - telegramdownload.com
+  - telesco.pe
+  - tg.dev
+  - tx.me
+  - usercontent.dev
+domain_keyword_set:
+  - nicegram
+  - 2001:67c:4e8::/48
+  - 2001:b28:f23c::/47
+  - 2001:b28:f23f::/48
+  - 2a0a:f280::/29

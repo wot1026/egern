@@ -1,0 +1,14 @@
+# 规则名称: LG_Resolve_DNS
+# 规则统计: 8
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - dacom.co.kr
+  - kidc.net
+  - lg.com
+  - uplus.co.kr
+  - 2001:270::/36
+  - 2001:4430:6000::/36
+  - 2001:4430:f::/48
+  - 2406:5900::/32

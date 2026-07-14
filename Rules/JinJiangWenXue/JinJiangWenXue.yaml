@@ -1,0 +1,12 @@
+# 规则名称: JinJiangWenXue
+# 规则统计: 7
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - chaba123.com
+  - jjwxc.cn
+  - jjwxc.com
+  - jjwxc.net
+  - jjwxc.org
+  - jjycw.net
+  - robook.com

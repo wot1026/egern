@@ -1,0 +1,13 @@
+# 规则名称: TCL_DNS
+# 规则统计: 7
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - alcatel-home.com
+  - alcatelmobile.com
+  - blackberry.com
+  - hmeng.cn
+  - hmeng.net.cn
+  - tcl.com
+  - tcl.com.cn

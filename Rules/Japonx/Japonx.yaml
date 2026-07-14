@@ -1,0 +1,16 @@
+# 规则名称: Japonx
+# 规则统计: 10
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - japonx.com
+  - japonx.net
+  - japonx.tv
+  - japonx.vip
+  - japronx.com
+  - japronx.net
+  - japronx.tv
+  - japronx.vip
+domain_keyword_set:
+  - japonx
+  - japronx

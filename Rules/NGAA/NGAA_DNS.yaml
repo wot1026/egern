@@ -1,0 +1,35 @@
+# 规则名称: NGAA_DNS
+# 规则统计: 29
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - chinagslb.cn
+  - chinagslb.com
+  - chinagslb.net
+  - cngslb.cn
+  - cngslb.com
+  - cngslb.net
+  - ispcache.cn
+  - ispcache.net
+  - kuaifan.shop
+  - ngaa.cn
+  - ngaa.com.cn
+  - ngaa.info
+  - ngaa.net.cn
+  - ngaa.org.cn
+  - ngaa.shop
+  - ngaa.top
+  - ngaacdn.cn
+  - ngaacdn.com
+  - ngaacdn.net
+  - ngaagslb.cn
+  - ngaagslb.com
+  - ngaagslb.net
+  - sinocache.cn
+  - sinocache.com.cn
+  - sinocache.net
+  - sinogslb.cn
+  - sinogslb.com
+  - sinogslb.net
+  - speedin.shop

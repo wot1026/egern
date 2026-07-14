@@ -1,0 +1,22 @@
+# 规则名称: Voxmedia_DNS
+# 规则统计: 16
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - cstatic.net
+  - curbed.com
+  - eater.com
+  - funnyordie.com
+  - meridian.net
+  - polygon.com
+  - racked.com
+  - recode.net
+  - sbnation.com
+  - theverge.com
+  - vox-cdn.com
+  - vox.com
+  - voxcreative.com
+  - voxfieldguide.com
+  - voxmedia.com
+  - voxops.net

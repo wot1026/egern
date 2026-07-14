@@ -1,0 +1,8 @@
+# 规则名称: Jsdelivr
+# 规则统计: 3
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - esm.run
+  - jsdelivr.com
+  - jsdelivr.net

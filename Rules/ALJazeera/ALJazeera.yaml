@@ -1,0 +1,12 @@
+# 规则名称: ALJazeera
+# 规则统计: 7
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - ajplus.net
+  - aljazeera.com
+  - aljazeera.net
+  - palestineremix.com
+  - sarajevopodopsadom.com
+  - srebrenica360.com
+  - syhacked.com

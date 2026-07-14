@@ -1,0 +1,6 @@
+# 规则名称: MOOMusic
+# 规则统计: 1
+# 来源: blackmatrix7/ios_rule_script
+
+user_agent_set:
+  - "TencentMidasConnect*"

@@ -1,0 +1,20 @@
+# 规则名称: Cloudflarecn_DNS
+# 规则统计: 14
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - cf-ns.com
+  - cf-ns.net
+  - cf-ns.site
+  - cf-ns.tech
+  - cftest5.cn
+  - cftest6.cn
+  - cftest7.com
+  - cftest8.com
+  - cloudflare-cn.com
+  - cloudflarecn.net
+  - cloudflareinsights-cn.com
+  - cloudflareprod.com
+  - cloudflarestaging.com
+  - cloudflarestoragegw.com

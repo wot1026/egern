@@ -1,0 +1,10 @@
+# 规则名称: Roblox
+# 规则统计: 3
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - rbxcdn.com
+domain_keyword_set:
+  - roblox
+user_agent_set:
+  - "Roblox*"

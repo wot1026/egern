@@ -1,0 +1,19 @@
+# 规则名称: Douyu_DNS
+# 规则统计: 13
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - bytefcdnrd.com
+  - douyu.com
+  - douyu.tv
+  - douyuba.cn
+  - douyucdn.cn
+  - douyucdn2.cn
+  - douyupcdn.cn
+  - douyuscdn.com
+  - douyutv.com
+  - doyonoc.com
+  - edgesrv.com
+  - guguyuyin.com
+  - oywtv.com

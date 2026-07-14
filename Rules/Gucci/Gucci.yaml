@@ -1,0 +1,11 @@
+# 规则名称: Gucci
+# 规则统计: 6
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - chimeforchange.org
+  - gucci.cn
+  - gucci.com
+  - guccimuseo.com
+  - guccitimeless.com
+  - regiongold.com

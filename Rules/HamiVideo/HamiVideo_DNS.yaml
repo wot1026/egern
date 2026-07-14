@@ -1,0 +1,12 @@
+# 规则名称: HamiVideo_DNS
+# 规则统计: 4
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - hls-hichannel.cdn.hinet.net
+domain_suffix_set:
+  - hamivideo.hinet.net
+  - ott.hinet.net
+domain_keyword_set:
+  - hamivideo.cdn.hinet.net

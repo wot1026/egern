@@ -1,0 +1,20 @@
+# 规则名称: YiXiaKeJi_DNS
+# 规则统计: 14
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - huangka.com
+  - iyuezhang.net
+  - miaokan.com
+  - miaopai.com
+  - vbbobo.com
+  - vitamio.net
+  - vitamio.org
+  - vitamio.tv
+  - vplayer.net
+  - weishipin.com
+  - xiaoka.tv
+  - xiaokaxiu.com
+  - yixia.com
+  - yixiatong.com

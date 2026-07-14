@@ -1,0 +1,6 @@
+# 规则名称: MeWatch
+# 规则统计: 1
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - mewatch.sg

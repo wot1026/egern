@@ -1,0 +1,24 @@
+# 规则名称: Rakuten_DNS
+# 规则统计: 18
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - ebates.com
+  - infoseek.co.jp
+  - o50.jp
+  - r10.to
+  - r10s.com
+  - r10s.jp
+  - rakuten-static.com
+  - rakuten.ca
+  - rakuten.co.jp
+  - rakuten.com
+  - rakuten.com.tw
+  - rakuten.ne.jp
+  - rakuten.tw
+  - rclon.com
+  - rebates.jp
+  - showtime.co.jp
+  - viber.co.jp
+  - viber.com

@@ -1,0 +1,14 @@
+# 规则名称: Bing
+# 规则统计: 9
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - bing.com
+  - bing.com.cn
+  - bing.net
+  - bingads.com
+  - bingagencyawards.com
+  - bingapistatistics.com
+  - bingsandbox.com
+  - bingvisualsearch.com
+  - bingworld.com

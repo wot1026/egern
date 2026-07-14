@@ -1,0 +1,40 @@
+# 规则名称: NaSDDNS_Resolve_DNS
+# 规则统计: 33
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - 3322.net
+  - 3322.org
+  - account.synology.com
+  - aliyuncs.com
+  - api.ipify.org
+  - api.nn.ci
+  - changeip.com
+  - checkip.synology.com
+  - checkipv6.synology.com
+  - checkport.synology.com
+  - ddns.synology.com
+  - ddnsfree.com
+  - dns-dns.com
+  - dnsapi.cn
+  - duckdns.org
+  - dyndns.org
+  - elb.amazonaws.com
+  - myddns.rocks
+  - myqnapcloud.com
+  - nat123.com
+  - netdata.cloud
+  - plex.direct
+  - plex.tv
+  - portcheck.transmissionbt.com
+  - qnap.com
+  - quickconnect.cn
+  - quickconnect.to
+  - suo.yt
+  - synocommunity.com
+  - synology.cn
+  - tpddns.cn
+  - whatismyip.akamai.com
+domain_keyword_set:
+  - qcloud

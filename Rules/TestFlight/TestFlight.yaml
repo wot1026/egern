@@ -1,0 +1,9 @@
+# 规则名称: TestFlight
+# 规则统计: 3
+# 来源: blackmatrix7/ios_rule_script
+
+domain_set:
+  - beta.apple.com
+  - testflight.apple.com
+domain_keyword_set:
+  - testflight

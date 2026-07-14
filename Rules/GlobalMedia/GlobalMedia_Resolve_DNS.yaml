@@ -1,0 +1,40 @@
+# 规则名称: GlobalMedia_Resolve_DNS
+# 规则统计: 33
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - youtube
+domain_keyword_set:
+  - abematv.akamaized.net
+  - anthropic
+  - apiproxy-device-prod-nlb-
+  - avoddashs
+  - bbcfmt
+  - claude
+  - discovery.uplynk.com
+  - dualstack.apiproxy-
+  - dualstack.ichnaea-web-
+  - hamivideo.cdn.hinet.net
+  - hbogoasia
+  - japonx
+  - japronx
+  - jooxweb-api
+  - netflixdnstest
+  - nivod
+  - nowtv100
+  - olevod
+  - rthklive
+  - spotify
+  - tiktokcdn
+  - ttvnw
+  - tvbanywhere
+  - uk-live
+  - voddazn
+  - youtube
+  - 2607:fb10::/32
+  - 2620:100:3000::/40
+  - 2620:10c:7000::/44
+  - 2620:120:e000::/40
+  - 2a00:86c0::/32
+  - 2a03:5640::/32

@@ -1,0 +1,30 @@
+# 规则名称: CaiXinChuanMei_DNS
+# 规则统计: 24
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - caing.cn
+  - caing.com
+  - caixin.com
+  - caixinmedia.cn
+  - caixinmedia.com
+  - caixinmedia.com.cn
+  - caixinonline.com
+  - healthpoint.cn
+  - healthpoint.com.cn
+  - icaing.cn
+  - jianhangcaifu.com
+  - lifetmt.cn
+  - lifetmt.com
+  - lifetmt.com.cn
+  - lifetmt.net
+  - lifetmt.org
+  - weinews.cn
+  - weinews.com.cn
+  - whyenjoy.com
+  - whyenjoy.com.cn
+  - wusuobuneng.cn
+  - wusuobuneng.com
+  - wusuobuneng.com.cn
+  - wusuobuneng.org

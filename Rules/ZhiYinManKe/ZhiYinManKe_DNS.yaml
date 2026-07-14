@@ -1,0 +1,23 @@
+# 规则名称: ZhiYinManKe_DNS
+# 规则统计: 17
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - 51kanmanhua.com
+  - mkdata.top
+  - mkpush.com
+  - mkzcdn.com
+  - mkzhan.cn
+  - mkzhan.com
+  - mkzhan.com.cn
+  - mkzhan.net
+  - xiaomingtaiji.cc
+  - xiaomingtaiji.cn
+  - xiaomingtaiji.com
+  - xiaomingtaiji.com.cn
+  - xiaomingtaiji.net
+  - xiaoshuohui.com.cn
+  - xiaoshuohui.net
+  - zymk.cn
+  - zymkcdn.com

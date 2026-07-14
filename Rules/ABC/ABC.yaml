@@ -1,0 +1,11 @@
+# 规则名称: ABC
+# 规则统计: 6
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - 95599.cn
+  - abchina.com
+  - bscabank.com
+  - openaboc.cn
+  - openaboc.com
+  - openaboc.com.cn

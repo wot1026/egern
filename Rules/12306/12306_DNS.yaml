@@ -1,0 +1,21 @@
+# 规则名称: 12306_DNS
+# 规则统计: 15
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - 12306.cn
+  - 95306.cn
+  - 95572.com
+  - china-railway.com.cn
+  - china-ric.com
+  - crct.com
+  - cre.cn
+  - crecc.com.cn
+  - creip.cn
+  - crscl.com.cn
+  - gzrailway.com.cn
+  - nntlj.com
+  - peoplerail.com
+  - rails.cn
+  - tdpress.com

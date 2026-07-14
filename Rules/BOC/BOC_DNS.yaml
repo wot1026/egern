@@ -1,0 +1,28 @@
+# 规则名称: BOC_DNS
+# 规则统计: 22
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - bank-of-china.com
+  - bankofchina.com
+  - boc.cn
+  - bocamchina.com
+  - bocaviation.com
+  - boccfc.cc
+  - boccfc.cn
+  - bocfullertonbank.com
+  - bocgi.com
+  - bocgins.com
+  - bochk.com
+  - bochkonline.com
+  - bocichina.cn
+  - bocichina.com
+  - bocichina.com.cn
+  - bocifunds.cn
+  - bocifunds.com
+  - bocifunds.com.cn
+  - bocigroup.com
+  - bocim.com
+  - bocservices.com.cn
+  - ftcwifi.com

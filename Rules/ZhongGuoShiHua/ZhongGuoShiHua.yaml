@@ -1,0 +1,10 @@
+# 规则名称: ZhongGuoShiHua
+# 规则统计: 5
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - sinopec-usa.com
+  - sinopec.com
+  - sinopecgroup.com
+  - sinopecnews.com.cn
+  - sinopecsales.com

@@ -1,0 +1,22 @@
+# 规则名称: ChinaNoMedia_DNS
+# 规则统计: 15
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - cn
+  - ms
+domain_keyword_set:
+  - .tmall.com
+  - alicdn
+  - alipay
+  - aliyun
+  - baidu
+  - beplay
+  - microsoft
+  - officecdn
+  - taobao
+  - 2a0b:b580::/48
+  - 2a0b:b581::/48
+  - 2a0b:b582::/48
+  - 2a0b:b583::/48

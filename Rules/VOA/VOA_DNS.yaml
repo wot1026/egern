@@ -1,0 +1,57 @@
+# 规则名称: VOA_DNS
+# 规则统计: 51
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - amerikaninsesi.com
+  - amerikaninsesi.org
+  - amerikaovozi.com
+  - amerikayidzayn.com
+  - amerikiskhma.com
+  - bbg.gov
+  - dandalinvoa.com
+  - darivoa.com
+  - dengeamerika.com
+  - dengiamerika.com
+  - glasamerike.net
+  - golos-ameriki.ru
+  - golosameriki.com
+  - insidevoa.com
+  - pashtovoa.com
+  - persagg.com
+  - radiyoyacuvoa.com
+  - urduvoa.com
+  - voa-11.akacast.akamaistream.net
+  - voa.gov
+  - voa.mobi
+  - voaafaanoromoo.com
+  - voaafrique.com
+  - voabambara.com
+  - voabangla.com
+  - voacambodia.com
+  - voacantonese.com
+  - voachinese.com
+  - voachineseblog.com
+  - voadeewanews.com
+  - voadeewaradio.com
+  - voahausa.com
+  - voaindonesia.com
+  - voakorea.com
+  - voalingala.com
+  - voandebele.com
+  - voanews.com
+  - voanews.eu
+  - voanoticias.com
+  - voanouvel.com
+  - voaportugues.com
+  - voashona.com
+  - voasomali.com
+  - voaswahili.com
+  - voathai.com
+  - voatibetan.com
+  - voatibetanenglish.com
+  - voatiengviet.com
+  - voatour.com
+  - voazimbabwe.com
+  - zeriamerikes.com

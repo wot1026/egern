@@ -1,0 +1,13 @@
+# 规则名称: Origin
+# 规则统计: 7
+# 来源: blackmatrix7/ios_rule_script
+
+domain_set:
+  - cloudsync-prod.s3.amazonaws.com
+  - eaasserts-a.akamaihd.net
+  - origin-a.akamaihd.net
+  - originasserts.akamaized.net
+  - rtm.tnt-ea.com
+domain_suffix_set:
+  - ea.com
+  - origin.com

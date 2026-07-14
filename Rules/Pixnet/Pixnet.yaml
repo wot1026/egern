@@ -1,0 +1,14 @@
+# 规则名称: Pixnet
+# 规则统计: 9
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - pimg.tw
+  - pixanalytics.com
+  - pixfs.net
+  - pixinsight.com.tw
+  - pixnet.cc
+  - pixnet.net
+  - pixnet.pro
+  - pixnet.tw
+  - pixplug.in

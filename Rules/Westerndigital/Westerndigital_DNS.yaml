@@ -1,0 +1,29 @@
+# 规则名称: Westerndigital_DNS
+# 规则统计: 23
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - g-technology.com
+  - sandisk.ae
+  - sandisk.cn
+  - sandisk.co.jp
+  - sandisk.co.kr
+  - sandisk.co.uk
+  - sandisk.com
+  - sandisk.com.au
+  - sandisk.com.br
+  - sandisk.com.tr
+  - sandisk.com.tw
+  - sandisk.de
+  - sandisk.es
+  - sandisk.fr
+  - sandisk.hk
+  - sandisk.id
+  - sandisk.in
+  - sandisk.it
+  - sandisk.nl
+  - sandisk.sg
+  - wd.com
+  - wdc.com
+  - westerndigital.com

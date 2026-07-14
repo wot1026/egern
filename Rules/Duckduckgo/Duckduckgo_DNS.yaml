@@ -1,0 +1,49 @@
+# 规则名称: Duckduckgo_DNS
+# 规则统计: 43
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - cispaletter.com
+  - cispaletter.org
+  - cometotheduckside.com
+  - ddg.co
+  - ddg.gg
+  - ddh.gg
+  - dgg.gg
+  - dontbubble.us
+  - donttrack.us
+  - duck.co
+  - duck.com
+  - duckduckco.com
+  - duckduckco.de
+  - duckduckgo.ca
+  - duckduckgo.co
+  - duckduckgo.co.uk
+  - duckduckgo.com
+  - duckduckgo.com.mx
+  - duckduckgo.com.tw
+  - duckduckgo.de
+  - duckduckgo.dk
+  - duckduckgo.in
+  - duckduckgo.jp
+  - duckduckgo.ke
+  - duckduckgo.mx
+  - duckduckgo.nl
+  - duckduckgo.org
+  - duckduckgo.pl
+  - duckduckgo.sg
+  - duckduckgo.uk
+  - duckduckhack.com
+  - duckgo.com
+  - ducksear.ch
+  - duckside.com
+  - dukgo.com
+  - enteentegeh.de
+  - fixtracking.com
+  - goduckgo.com
+  - hacksear.ch
+  - justduckit.com
+  - privacysimplified.com
+  - privatebrowsingmyths.com
+  - spreadprivacy.com

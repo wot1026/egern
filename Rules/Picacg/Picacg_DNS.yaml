@@ -1,0 +1,16 @@
+# 规则名称: Picacg_DNS
+# 规则统计: 10
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - bikaa.xyz
+  - bikac.xyz
+  - bikaios.xyz
+  - manhuabika.com
+  - picacgp.com
+  - picacgy.com
+  - picacn.xyz
+  - picacomic.com
+  - picacomic.xyz
+  - wikawika.xyz

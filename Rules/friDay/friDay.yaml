@@ -1,0 +1,7 @@
+# 规则名称: friDay
+# 规则统计: 2
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - fetnet.net
+  - friday.tw

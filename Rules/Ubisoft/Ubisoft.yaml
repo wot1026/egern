@@ -1,0 +1,6 @@
+# 规则名称: Ubisoft
+# 规则统计: 1
+# 来源: blackmatrix7/ios_rule_script
+
+domain_set:
+  - uplaypc-s-ubisoft.cdn.ubi.com

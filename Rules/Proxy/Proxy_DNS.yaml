@@ -1,0 +1,36 @@
+# 规则名称: Proxy_DNS
+# 规则统计: 30
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_keyword_set:
+  - 1drv
+  - 1e100
+  - abema
+  - appledaily
+  - avtb
+  - beetalk
+  - blogspot
+  - dlercloud
+  - dropbox
+  - facebook
+  - fbcdn
+  - gmail
+  - google
+  - instagram
+  - onedrive
+  - paypal
+  - porn
+  - sci-hub
+  - skydrive
+  - spotify
+  - telegram
+  - ttvnw
+  - twitter
+  - uk-live
+  - whatsapp
+  - youtube
+  - 2001:67c:4e8::/48
+  - 2001:b28:f23d::/48
+  - 2001:b28:f23f::/48
+  - 2a0a:f280::/32

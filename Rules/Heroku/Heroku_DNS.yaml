@@ -1,0 +1,18 @@
+# 规则名称: Heroku_DNS
+# 规则统计: 12
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - codei.sh
+  - codeish.co
+  - codeish.io
+  - heroku-app.com
+  - heroku-charge.com
+  - heroku.co
+  - heroku.com
+  - heroku.me
+  - herokuapp.com
+  - herokucdn.com
+  - herokucharge.com
+  - herokussl.com

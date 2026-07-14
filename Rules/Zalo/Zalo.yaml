@@ -1,0 +1,7 @@
+# 规则名称: Zalo
+# 规则统计: 2
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - zalo.me
+  - zaloapp.com

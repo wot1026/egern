@@ -1,0 +1,11 @@
+# 规则名称: GitLab
+# 规则统计: 6
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - gitlab-assets.oss-cn-hongkong.aliyuncs.com
+  - gitlab-static.net
+  - gitlab.com
+  - gitlab.net
+  - gitter-static.net
+  - gitter.im

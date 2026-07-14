@@ -1,0 +1,14 @@
+# 规则名称: Download
+# 规则统计: 7
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - qbittorrent.org
+domain_keyword_set:
+  - aria2
+  - thunder
+  - xlliveud
+  - xunlei
+  - yunpan
+url_regex_set:
+  - "assets\d+\.xboxlive\.(com|cn)"

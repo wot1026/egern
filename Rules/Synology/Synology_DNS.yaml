@@ -1,0 +1,27 @@
+# 规则名称: Synology_DNS
+# 规则统计: 19
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - d2f0395ykn6hxb.cloudfront.net
+domain_suffix_set:
+  - diskstation.me
+  - dscloud.biz
+  - dscloud.me
+  - dscloud.mobi
+  - dsmunas.com
+  - dsmunas.net
+  - dsmunas.org
+  - familyds.com
+  - familyds.net
+  - familyds.org
+  - i234.me
+  - myds.com
+  - quickconnect.to
+  - synodns.com
+  - synology.cn
+  - synology.com
+  - synology.me
+domain_keyword_set:
+  - synology

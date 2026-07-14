@@ -1,0 +1,22 @@
+# 规则名称: DingXiangYuan_DNS
+# 规则统计: 16
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - 0dxy.cn
+  - biomart.cn
+  - centerwatch.cn
+  - crou.cn
+  - dxy.cn
+  - dxy.com
+  - dxy.me
+  - dxy.net
+  - dxycdn.com
+  - dxyer.cn
+  - dxyer.com
+  - guanlannet.com
+  - jobmd.cn
+  - linkmed.com.cn
+  - mdnews.cn
+  - pubmed.cn

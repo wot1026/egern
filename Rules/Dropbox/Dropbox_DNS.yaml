@@ -1,0 +1,23 @@
+# 规则名称: Dropbox_DNS
+# 规则统计: 17
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - db.tt
+  - dropbox-dns.com
+  - dropbox.com
+  - dropbox.tech
+  - dropbox.zendesk.com
+  - dropboxapi.com
+  - dropboxbusiness.com
+  - dropboxcaptcha.com
+  - dropboxforum.com
+  - dropboxforums.com
+  - dropboxinsiders.com
+  - dropboxmail.com
+  - dropboxpartners.com
+  - dropboxstatic.com
+  - dropboxusercontent.com
+  - getdropbox.com
+  - paper-attachments.s3.amazonaws.com

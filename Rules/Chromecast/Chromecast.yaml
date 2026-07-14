@@ -1,0 +1,6 @@
+# 规则名称: Chromecast
+# 规则统计: 1
+# 来源: blackmatrix7/ios_rule_script
+
+domain_keyword_set:
+  - pa.google

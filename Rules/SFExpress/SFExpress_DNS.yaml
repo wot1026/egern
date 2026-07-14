@@ -1,0 +1,26 @@
+# 规则名称: SFExpress_DNS
+# 规则统计: 20
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - feng1.com
+  - fslinker.com
+  - hbjia.net
+  - rongechain.com
+  - sf-airlines.com
+  - sf-cityrush.com
+  - sf-express.com
+  - sf-financial.com
+  - sf-intra-city.com
+  - sf-jf.com
+  - sf-saas.cn
+  - sf-saas.com
+  - sf-saas.com.cn
+  - sf-tech.com.cn
+  - sf.cn
+  - sfair.com
+  - sfbuy.com
+  - sfcar.hk
+  - sffix.cn
+  - sfgy.org

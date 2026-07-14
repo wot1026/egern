@@ -1,0 +1,12 @@
+# 规则名称: BesTV
+# 规则统计: 7
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - bbtv.cn
+  - bestv.com.cn
+  - bestvcdn.cn
+  - bestvcdn.com
+  - bestvcdn.com.cn
+  - bestvcdn.net
+  - smgbb.cn

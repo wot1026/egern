@@ -1,0 +1,8 @@
+# 规则名称: PBS
+# 规则统计: 2
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - pbs.org
+user_agent_set:
+  - "PBS*"

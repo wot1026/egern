@@ -1,0 +1,21 @@
+# 规则名称: Epic_DNS
+# 规则统计: 15
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - battlebreakers.com
+  - eac-cdn.com
+  - easy.ac
+  - easyanticheat.net
+  - epicgames.com
+  - epicgames.dev
+  - fortnite.com
+  - helpshift.com
+  - paragon.com
+  - playparagon.com
+  - roborecall.com
+  - shadowcomplex.com
+  - spyjinx.com
+  - unrealengine.com
+  - unrealtournament.com

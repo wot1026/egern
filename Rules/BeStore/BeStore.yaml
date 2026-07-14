@@ -1,0 +1,8 @@
+# 规则名称: BeStore
+# 规则统计: 3
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - 517lppz.com
+  - lppz.com
+  - lppzimg.com

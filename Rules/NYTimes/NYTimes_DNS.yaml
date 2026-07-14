@@ -1,0 +1,22 @@
+# 规则名称: NYTimes_DNS
+# 规则统计: 16
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - d1f1eryiqyjs0r.cloudfront.net
+  - d3lar09xbwlsge.cloudfront.net
+  - d3q1qj9jzsu8nw.cloudfront.net
+  - dc8xl0ndzn2cb.cloudfront.net
+  - nyt.com
+  - nyt.net
+  - nytchina.com
+  - nytcn.me
+  - nytco.com
+  - nyti.ms
+  - nytimes.com
+  - nytimg.com
+  - nytlog.com
+  - nytstyle.com
+  - timestalks.com
+  - tynt.com

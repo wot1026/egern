@@ -1,0 +1,16 @@
+# 规则名称: 1337x_DNS
+# 规则统计: 10
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - 1337x.gd
+  - 1337x.is
+  - 1337x.st
+  - 1337x.to
+  - 1337x.tw
+  - 1337xto.to
+  - 1337xx.to
+  - x1337x.eu
+  - x1337x.se
+  - x1337x.ws

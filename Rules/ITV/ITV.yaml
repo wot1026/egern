@@ -1,0 +1,11 @@
+# 规则名称: ITV
+# 规则统计: 4
+# 来源: blackmatrix7/ios_rule_script
+
+domain_set:
+  - itvpnpmobile-a.akamaihd.net
+domain_suffix_set:
+  - itv.com
+  - itvstatic.com
+user_agent_set:
+  - "ITV_Player*"

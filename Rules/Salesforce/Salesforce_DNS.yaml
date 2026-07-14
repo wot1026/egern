@@ -1,0 +1,19 @@
+# 规则名称: Salesforce_DNS
+# 规则统计: 13
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - force.com
+  - heroku.com
+  - herokuapp.com
+  - herokucdn.com
+  - mulesoft.com
+  - salesforce.com
+  - salesforce.org
+  - salesforceliveagent.com
+  - sfdcdigital.com
+  - sfdcstatic.com
+  - tableau.com
+  - trailblazer.me
+  - trailhead.com

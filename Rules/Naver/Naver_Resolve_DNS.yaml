@@ -1,0 +1,34 @@
+# 规则名称: Naver_Resolve_DNS
+# 规则统计: 27
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - d17lx9ucc6k9fc.cloudfront.net
+  - d3c7rimkq79yfu.cloudfront.net
+domain_suffix_set:
+  - chocotv.com.tw
+  - grafolio.com
+  - lin.ee
+  - line-apps-beta.com
+  - line-apps.com
+  - line-beta.me
+  - line-cdn.net
+  - line-scdn.net
+  - line.me
+  - linecorp.com
+  - linefriends.com
+  - linefriends.com.tw
+  - linegame.jp
+  - linemobile.com
+  - linetv.tw
+  - naver.com
+  - naver.jp
+  - naver.net
+  - navercorp.com
+  - nhncorp.jp
+  - plug.game
+  - pstatic.net
+  - smartmediarep.com
+  - webtoons.com
+  - 2400:dcc0::/32

@@ -1,0 +1,9 @@
+# 规则名称: Deezer
+# 规则统计: 3
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - deezer.com
+  - dzcdn.net
+user_agent_set:
+  - "Deezer*"

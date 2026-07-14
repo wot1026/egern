@@ -1,0 +1,15 @@
+# 规则名称: KKBOX_DNS
+# 规则统计: 9
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - kfs.io
+  - kk.stream
+  - kkbox-prime.com
+  - kkbox.com
+  - kkbox.com.tw
+  - kktix.com
+  - kktv.com.tw
+  - kktv.me
+  - theater-kktv.cdn.hinet.net

@@ -1,0 +1,15 @@
+# 规则名称: ZhongYuanYiShang_DNS
+# 规则统计: 9
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - bjesound.com
+  - earlymen.com.cn
+  - esound.cn
+  - esound.net.cn
+  - esound.vip
+  - flymodem.cn
+  - flymodem.com.cn
+  - flymodem.net
+  - iotboss.cn

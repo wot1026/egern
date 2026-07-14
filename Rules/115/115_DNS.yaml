@@ -1,0 +1,17 @@
+# 规则名称: 115_DNS
+# 规则统计: 10
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_set:
+  - fhnfile.oss-cn-shenzhen.aliyuncs.com
+domain_suffix_set:
+  - 115.com
+  - 115cdn.com
+  - 115cdn.net
+  - 115img.com
+  - 116cd.cn
+  - 116cd.com
+  - 116cd.net
+  - anxia.com
+  - sq.cc

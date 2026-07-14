@@ -1,0 +1,28 @@
+# 规则名称: Rarbg_DNS
+# 规则统计: 22
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - dyncdn.me
+  - proxyrarbg.org
+  - rarbg.bypassed.org
+  - rarbg.is
+  - rarbg.link
+  - rarbg.me
+  - rarbg.to
+  - rarbg.unblocked.vc
+  - rarbgaccess.org
+  - rarbgaccessed.org
+  - rarbgget.org
+  - rarbggo.org
+  - rarbgmirror.com
+  - rarbgmirror.org
+  - rarbgmirror.xyz
+  - rarbgproxy.org
+  - rarbgprx.org
+  - rarbgs.com
+  - rarbgto.org
+  - rarbgunblock.com
+  - rarbgunblock.org
+  - rarbgway.org

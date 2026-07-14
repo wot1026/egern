@@ -1,0 +1,15 @@
+# 规则名称: FengHuangWang_DNS
+# 规则统计: 9
+# 用途: 仅供 dns.forward 的 proxy_rule_set 使用
+# 来源: blackmatrix7/ios_rule_script (与完整版同源)
+
+domain_suffix_set:
+  - fengcx.com
+  - fengedu.com
+  - fengzhibo.com.cn
+  - ifeng.com
+  - ifengimg.com
+  - ifengweekly.com
+  - phoenixcenter.cn
+  - phoenixtv.com
+  - phoenixtv.com.cn

@@ -1,0 +1,12 @@
+# 规则名称: Movefree
+# 规则统计: 7
+# 来源: blackmatrix7/ios_rule_script
+
+domain_suffix_set:
+  - keepmovingwithmovefree.com
+  - move-free.net
+  - movefree.cn
+  - movefreeoffers.com
+  - movefreerewards.com
+  - movefrees.com
+  - schiffvitamins.com
