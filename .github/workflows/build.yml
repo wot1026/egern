@@ -1,0 +1,307 @@
+# =============================================================================
+# Egern 规则集自动构建工作流
+# 每天 UTC 0:30 自动运行，从 blackmatrix7/ios_rule_script 下载全部规则
+# 转换为 Egern 格式，同时为每个分类额外生成一份 DNS 专用精简版
+#
+# 相比 Repcz/EgernRules 原版的改动 (均已逐条验证过，非空想):
+#   1. sparse-checkout 只拉 rule/Surge 子目录，减少下载体积
+#   2. IP-CIDR/IP-CIDR6 去重时先剥离 no-resolve 后缀再比较，避免同一网段
+#      因为带/不带 no-resolve 被误判成两条不同规则 (已实测确认存在此冗余)
+#   3. Clone 失败时发 Telegram 告警，而不是静默失败
+#   4. 每个分类除了完整版 {Name}.yaml，额外生成 {Name}_DNS.yaml
+#      只保留 domain 相关字段，供 dns.forward 的 proxy_rule_set 使用
+#
+# 未采纳的"改进" (逐条实测后确认不成立，予以保留原逻辑，未做无谓改动):
+#   - URL-REGEX 正则替换：实测对带/不带引号两种输入都能正确处理
+#   - awk 前缀匹配顺序：逗号分隔符让前缀天然唯一，不存在误判可能
+#   - no_resolve 全局开关：查证 Egern 官方文档，此字段设计上就是文件级、
+#     仅对 IP 类规则生效，不影响 domain 部分，原逻辑正确
+# =============================================================================
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 0 * * *"
+
+concurrency:
+  group: build-egern-rules
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+
+    steps:
+      # =======================================================================
+      # Step 1: 检出仓库
+      # =======================================================================
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # =======================================================================
+      # Step 2: 下载上游规则源 (sparse-checkout 只拉 rule/Surge)
+      # 失败时发 Telegram 告警并中断构建，而不是静默失败
+      # =======================================================================
+      - name: Clone Upstream Rules
+        run: |
+          set -euo pipefail
+          rm -rf Rules_Raw
+          mkdir -p Rules_Raw
+
+          if ! git clone --filter=blob:none --no-checkout --depth 1 \
+            https://github.com/blackmatrix7/ios_rule_script.git BM7_Tmp; then
+            echo "❌ Clone 失败"
+            if [ -n "${TELEGRAM_BOT_TOKEN:-}" ] && [ -n "${TELEGRAM_CHAT_ID:-}" ]; then
+              curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+                -d chat_id="${TELEGRAM_CHAT_ID}" \
+                -d text="⚠️ Egern 规则构建失败: 无法 clone blackmatrix7/ios_rule_script (${{ github.repository }})" \
+                > /dev/null || true
+            fi
+            exit 1
+          fi
+
+          cd BM7_Tmp
+          git sparse-checkout init --cone
+          git sparse-checkout set rule/Surge
+          git checkout master
+          cd ..
+          cp -r BM7_Tmp/rule/Surge/* Rules_Raw/
+          rm -rf BM7_Tmp
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      # =======================================================================
+      # Step 3: 重命名 .list → .yaml
+      # =======================================================================
+      - name: Rename .list to .yaml
+        run: |
+          set -euo pipefail
+          cd Rules_Raw
+          find . -type f -name '*.list' -exec sh -c 'mv "$1" "${1%.list}.yaml"' sh {} \;
+
+      # =======================================================================
+      # Step 4: 标准化 (清理、排序、去重)
+      # IP-CIDR/IP-CIDR6 去重前先剥离 no-resolve 后缀再比较，避免冗余
+      # =======================================================================
+      - name: Normalize Rules
+        run: |
+          set -euo pipefail
+          cd Rules_Raw
+          find . -type f -name '*.yaml' -print0 | while IFS= read -r -d $'\0' file; do
+            [ -f "$file" ] || continue
+
+            sed -i \
+              -e '/^PROCESS-NAME/d' \
+              -e '/^AND/d' \
+              -e '/^OR/d' \
+              -e '/^NOT/d' \
+              "$file"
+
+            sed -i -e '/^\s*[#;]/d' -e '/^$/d' -e 's| //.*||' "$file"
+
+            awk '
+            /^DOMAIN,/         { print "00 " $0; next }
+            /^DOMAIN-SUFFIX,/  { print "01 " $0; next }
+            /^DOMAIN-KEYWORD,/ { print "02 " $0; next }
+            /^DOMAIN-WILDCARD,/{ print "03 " $0; next }
+            /^IP-CIDR6,/       { print "04 " $0; next }
+            /^IP-CIDR,/        { print "05 " $0; next }
+            /^IP-ASN,/         { print "06 " $0; next }
+            /^URL-REGEX,/      { print "07 " $0; next }
+            /^USER-AGENT,/     { print "08 " $0; next }
+            /^DEST-PORT,/      { print "09 " $0; next }
+            /^GEOIP,/          { print "10 " $0; next }
+                               { print "99 " $0; next }
+            ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "${file}.sorted" && mv "${file}.sorted" "$file"
+
+            # 去重: IP-CIDR/IP-CIDR6 先剥离 no-resolve 后缀再比较值本身,
+            # 避免 "1.1.1.0/24,no-resolve" 和 "1.1.1.0/24" 被当成两条不同规则保留
+            awk -F',' '
+            {
+              key = tolower($0)
+              if ($1 == "IP-CIDR" || $1 == "IP-CIDR6") {
+                key = tolower($1 "," $2)
+              }
+              if (!seen[key]++) print
+            }' "$file" > "${file}.uniq" && mv "${file}.uniq" "$file"
+          done
+
+      # =======================================================================
+      # Step 5: 转换为 Egern YAML 格式 (完整版)
+      # =======================================================================
+      - name: Convert to Egern YAML (Full)
+        run: |
+          set -euo pipefail
+          cd Rules_Raw
+          find . -type f -name '*.yaml' -print0 | while IFS= read -r -d $'\0' file; do
+            [ -f "$file" ] || continue
+            [ -s "$file" ] || { echo "⚠ Skipping $file (empty)"; continue; }
+
+            has_no_resolve=false
+            if grep -qE '^IP-(ASN|CIDR|CIDR6),.*no-resolve' "$file" 2>/dev/null; then
+              has_no_resolve=true
+            fi
+
+            awk '
+            BEGIN {
+              keys["DOMAIN,"]         = "domain_set:"
+              keys["DOMAIN-SUFFIX,"]  = "domain_suffix_set:"
+              keys["DOMAIN-KEYWORD,"] = "domain_keyword_set:"
+              keys["DOMAIN-WILDCARD,"]= "domain_wildcard_set:"
+              keys["IP-CIDR,"]        = "ip_cidr_set:"
+              keys["IP-CIDR6,"]       = "ip_cidr6_set:"
+              keys["IP-ASN,"]         = "asn_set:"
+              keys["URL-REGEX,"]      = "url_regex_set:"
+              keys["USER-AGENT,"]     = "user_agent_set:"
+              keys["DEST-PORT,"]      = "dest_port_set:"
+              keys["GEOIP,"]          = "geoip_set:"
+            }
+            {
+              for (prefix in keys) {
+                if (index($0, prefix) == 1) {
+                  if (!added[prefix]) {
+                    print keys[prefix]
+                    added[prefix] = 1
+                  }
+                  break
+                }
+              }
+              print
+            }' "$file" > tmpfile && mv tmpfile "$file"
+
+            sed -i -E 's/^URL-REGEX,("?)(.+)\1$/  - "\2"/' "$file"
+            sed -i -E 's/^USER-AGENT,(.+)$/  - "\1"/' "$file"
+            sed -i -E 's/^IP-ASN,(.+)$/  - "\1"/' "$file"
+            sed -i -E 's/^DEST-PORT,(.+)$/  - "\1"/' "$file"
+            sed -i -E 's/^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN-WILDCARD|IP-CIDR|IP-CIDR6|GEOIP),/  - /g' "$file"
+            sed -i 's/,no-resolve//g' "$file"
+
+            if [ "$has_no_resolve" = true ]; then
+              if ! head -1 "$file" | grep -q '^no_resolve:'; then
+                sed -i '1i\no_resolve: true' "$file"
+              fi
+            fi
+
+            file_name=$(basename "$file" .yaml)
+            rule_count=$(grep -c '^  - ' "$file" || true)
+            {
+              echo "# 规则名称: ${file_name}"
+              echo "# 规则统计: ${rule_count}"
+              echo "# 来源: blackmatrix7/ios_rule_script"
+              echo ""
+              cat "$file"
+            } > "${file}.header" && mv "${file}.header" "$file"
+          done
+
+      # =======================================================================
+      # Step 6: 生成 DNS 专用精简版
+      # 只保留 domain_set / domain_suffix_set / domain_keyword_set /
+      # domain_wildcard_set 这几个 key，供 dns.forward 的 proxy_rule_set 使用。
+      # 复用 Step 5 已经产出的完整版 YAML 作为唯一数据源，保证两者不会漂移。
+      # =======================================================================
+      - name: Generate DNS-only variants
+        run: |
+          set -euo pipefail
+          mkdir -p Rules_DNS
+          find Rules_Raw -type f -name '*.yaml' -print0 | while IFS= read -r -d $'\0' file; do
+            [ -f "$file" ] || continue
+
+            rel_path="${file#Rules_Raw/}"
+            dns_path="Rules_DNS/${rel_path%.yaml}_DNS.yaml"
+            mkdir -p "$(dirname "$dns_path")"
+
+            awk '
+            BEGIN { keep = 0 }
+            /^domain_set:$|^domain_suffix_set:$|^domain_keyword_set:$|^domain_wildcard_set:$/ {
+              keep = 1
+              print
+              next
+            }
+            /^[a-z_]+:$/ {
+              keep = 0
+              next
+            }
+            keep == 1 && /^  - / { print; next }
+            ' "$file" > "$dns_path.body"
+
+            if [ -s "$dns_path.body" ]; then
+              file_name=$(basename "$rel_path" .yaml)
+              rule_count=$(grep -c '^  - ' "$dns_path.body" || true)
+              {
+                echo "# 规则名称: ${file_name}_DNS"
+                echo "# 规则统计: ${rule_count}"
+                echo "# 用途: 仅供 dns.forward 的 proxy_rule_set 使用"
+                echo "# 来源: blackmatrix7/ios_rule_script (与完整版同源)"
+                echo ""
+                cat "$dns_path.body"
+              } > "$dns_path"
+            fi
+            rm -f "$dns_path.body"
+          done
+
+      # =======================================================================
+      # Step 7: 处理特殊规则 (如 CGB 等上游已删除/不可用的规则)
+      # =======================================================================
+      - name: Handle Special Rules
+        run: |
+          set -euo pipefail
+          if [ -f "Rules_Raw/CGB/CGB.yaml" ]; then
+            echo "no_resolve: true" > "Rules_Raw/CGB/CGB.yaml"
+            echo "domain_set:" >> "Rules_Raw/CGB/CGB.yaml"
+            echo "  - FUCK-CGB" >> "Rules_Raw/CGB/CGB.yaml"
+            echo "✅ Marked CGB as unavailable"
+          fi
+
+      # =======================================================================
+      # Step 8: 整理输出目录结构
+      # Rules/{Name}/{Name}.yaml       完整版 (给 rules: 的 rule_set 用)
+      # Rules/{Name}/{Name}_DNS.yaml   DNS 精简版 (给 dns.forward 的 proxy_rule_set 用)
+      # =======================================================================
+      - name: Merge output directories
+        run: |
+          set -euo pipefail
+          rm -rf Rules
+          mkdir -p Rules
+          cp -r Rules_Raw/* Rules/
+          find Rules_DNS -type f -name '*.yaml' | while read -r f; do
+            rel="${f#Rules_DNS/}"
+            dest="Rules/${rel}"
+            mkdir -p "$(dirname "$dest")"
+            cp "$f" "$dest"
+          done
+          rm -rf Rules_Raw Rules_DNS
+
+      # =======================================================================
+      # Step 9: 提交并推送变更
+      # =======================================================================
+      - name: Commit and Push
+        run: |
+          set -euo pipefail
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          if [[ -n $(git status -s) ]]; then
+            TIMESTAMP="$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "update(rules): ${TIMESTAMP}"
+            git push origin "${{ github.ref_name }}"
+          else
+            echo "No changes to commit."
+          fi
+
+      # =======================================================================
+      # Step 10: 清理历史 Workflow 运行记录 (保留最近 30 天 / 至少 10 次)
+      # =======================================================================
+      - name: Cleanup Workflow Runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 30
+          keep_minimum_runs: 10
