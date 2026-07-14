@@ -1,7 +1,8 @@
 # 规则名称: Twitch_DNS
-# 规则统计: 10
+# 规则统计: 9
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_suffix_set:
   - ext-twitch.tv
@@ -14,4 +15,3 @@ domain_suffix_set:
   - twitchsvc.net
 domain_keyword_set:
   - ttvnw
-  - 2402:2a80::/32

@@ -1,7 +1,8 @@
 # 规则名称: Apple_All_DNS
-# 规则统计: 1570
+# 规则统计: 1567
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_set:
   - apple-events.akamaized.net
@@ -1573,6 +1574,3 @@ domain_keyword_set:
   - icloud.com.akadns.net
   - smp-device
   - testflight
-  - 2403:300::/32
-  - 2620:149::/32
-  - 2a01:b740::/32

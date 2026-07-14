@@ -1,7 +1,8 @@
 # 规则名称: China_DNS
-# 规则统计: 15
+# 规则统计: 11
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_suffix_set:
   - cn
@@ -16,7 +17,3 @@ domain_keyword_set:
   - microsoft
   - officecdn
   - taobao
-  - 2a0b:b580::/48
-  - 2a0b:b581::/48
-  - 2a0b:b582::/48
-  - 2a0b:b583::/48

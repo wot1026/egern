@@ -1,7 +1,8 @@
 # 规则名称: AdvertisingLite_All_DNS
-# 规则统计: 37880
+# 规则统计: 37879
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_set:
   - 00-gov.cn
@@ -37885,4 +37886,3 @@ domain_keyword_set:
   - xxshuyuan
   - ynuf.alipay.com
   - zjtoolbar
-  - 2402:db40:5100:1011::5/128

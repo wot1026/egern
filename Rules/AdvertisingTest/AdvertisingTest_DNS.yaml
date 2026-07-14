@@ -1,7 +1,8 @@
 # 规则名称: AdvertisingTest_DNS
-# 规则统计: 283
+# 规则统计: 280
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_keyword_set:
   - -logging.nextmedia.com
@@ -284,6 +285,3 @@ domain_keyword_set:
   - ynuf.alipay.com
   - zjtoolbar
   - zymerget
-  - 2402:4e00:1900:1700:0:9554:1ad9:c3a/128
-  - 2402:db40:5100:1011::5/128
-  - 240e:928:1400:10::25/128

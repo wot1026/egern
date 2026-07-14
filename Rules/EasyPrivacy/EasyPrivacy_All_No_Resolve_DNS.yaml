@@ -1,17 +1,9 @@
 # 规则名称: EasyPrivacy_All_No_Resolve_DNS
-# 规则统计: 39947
+# 规则统计: 39939
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
-domain_set:
-  - 109.123.233.251
-  - 185.193.38.148
-  - 34.215.155.61
-  - 35.194.26.233
-  - 35.239.57.233
-  - 44.228.85.26
-  - 45.32.105.134
-  - 77.162.125.199
 domain_suffix_set:
   - 0.myikas.com
   - 0.net.easyjet.com

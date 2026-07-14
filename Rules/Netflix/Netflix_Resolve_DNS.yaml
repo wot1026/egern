@@ -1,7 +1,8 @@
 # 规则名称: Netflix_Resolve_DNS
-# 规则统计: 41
+# 规则统计: 37
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_set:
   - e13252.dscg.akamaiedge.net
@@ -43,7 +44,3 @@ domain_keyword_set:
   - dualstack.apiproxy-
   - dualstack.ichnaea-web-
   - netflixdnstest
-  - 2607:fb10::/32
-  - 2620:10c:7000::/44
-  - 2a00:86c0::/32
-  - 2a03:5640::/32

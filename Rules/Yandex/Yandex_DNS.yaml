@@ -1,7 +1,8 @@
 # 规则名称: Yandex_DNS
-# 规则统计: 36
+# 规则统计: 34
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_suffix_set:
   - xn--d1acpjx3f.xn--p1ai
@@ -38,5 +39,3 @@ domain_suffix_set:
   - yandex.ua
   - yandex.uz
   - yastatic.net
-  - 2620:10f:d000::/44
-  - 2a02:6b8::/29

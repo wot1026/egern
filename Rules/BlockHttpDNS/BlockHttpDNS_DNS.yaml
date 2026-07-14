@@ -1,7 +1,8 @@
 # 规则名称: BlockHttpDNS_DNS
-# 规则统计: 26
+# 规则统计: 22
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_set:
   - dns.jd.com
@@ -27,7 +28,3 @@ domain_suffix_set:
   - httpdns.baidubce.com
   - httpdns.pro
   - httpsdns.baidu.com
-  - 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
-  - 2402:4e00:1900:1700:0:9554:1ad9:c3a/128
-  - 2402:db40:5100:1011::5/128
-  - 240e:928:1400:10::25/128

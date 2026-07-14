@@ -1,7 +1,8 @@
 # 规则名称: Opera_Resolve_DNS
-# 规则统计: 15
+# 规则统计: 14
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
+# 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
 
 domain_suffix_set:
   - 1npq4.tk
@@ -18,4 +19,3 @@ domain_suffix_set:
   - operasoftware.com
   - otvs.tv
   - xn--cer18jcpe41t.com
-  - 2001:4c28::/32
