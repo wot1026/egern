@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 34711
+# 规则统计: 34726
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -7,6 +7,7 @@
 domain_set:
   - 1password.drift.click
   - adobeereg.com
+  - agb9r0ad.qllfkl.com
   - angle.com.tw
   - api-p.videomarket.jp
   - api.waqi.info
@@ -50,6 +51,7 @@ domain_set:
   - github-api.arkoselabs.com
   - gog-cdn-lumen.secure2.footprint.net
   - gog.qtlglb.com
+  - hb4bbbbb.pmhcjk.com
   - holoxx.f5.si
   - hpstore.corpmerchandise.com
   - hub.slarker.me
@@ -62,6 +64,7 @@ domain_set:
   - medone-education.thieme.com
   - muse.jhu.edu
   - nationalaustraliaban.tt.omtrdc.net
+  - nbbb1bb7.pmhcjk.com
   - ntp-c.colorado.edu
   - ntp.time.nl
   - ntp0.ntp-servers.net
@@ -84,6 +87,7 @@ domain_set:
   - practivate.adobe.ntp
   - public-us-pingsx.api.clonoth.com
   - push-apple.com.akadns.net
+  - q676790b.pmhcjk.com
   - qualcomm.sc.omtrdc.net
   - roovza-launches.appsflyersdk.com
   - roovza.inapps.appsflyersdk.com
@@ -1686,7 +1690,6 @@ domain_suffix_set:
   - alexanderstreet.com
   - alexlur.org
   - alfa.me
-  - alfabank.oavdo.amc
   - alfabank.ru
   - alfabank.st
   - alfadirect.ru
@@ -5209,6 +5212,7 @@ domain_suffix_set:
   - bnrmetal.com
   - bntrace.com
   - bnu.ac.uk
+  - bnxz.net
   - boa.ac.uk
   - boardreader.com
   - bobble.ac.uk
@@ -5868,6 +5872,7 @@ domain_suffix_set:
   - bypasscensorship.org
   - byrut.org
   - byspotify.com
+  - bystys.tech
   - byteoversea.com
   - bytick.com
   - byzantine-ahrb-centre.ac.uk
@@ -6616,6 +6621,7 @@ domain_suffix_set:
   - chatango.com
   - chatgpt.com
   - chatgpt.livekit.cloud
+  - chatgpt.site
   - chatgptvideo.xyz
   - chatgptvideob.buzz
   - chatnook.com
@@ -17498,6 +17504,7 @@ domain_suffix_set:
   - kiad.ac.uk
   - kichiku-doujinko.com
   - kichikuou.com
+  - kick.com
   - kickporn.com
   - kickshatchannel.com
   - kicksnike1.com
@@ -18182,7 +18189,12 @@ domain_suffix_set:
   - lihe.ac.uk
   - lihkg.com
   - lihksnap.com
+  - like-video.com
   - like.com
+  - likee.com
+  - likeeapp.ru
+  - likeevideo.com
+  - likeevideo.ru
   - likeseiyu.com
   - liketruyen.net
   - liketwice.com
@@ -23026,6 +23038,7 @@ domain_suffix_set:
   - owl.li
   - owltail.com
   - owsc.ac.uk
+  - owxd.xyz
   - ox.ac.uk
   - oxademy.ac.uk
   - oxahsc.ac.uk
@@ -31000,6 +31013,7 @@ domain_suffix_set:
   - uxbridgecollege.ac.uk
   - uxthemes.com
   - uxxxporn.com
+  - uxzw.club
   - uyghur-j.org
   - uyghur.co.uk
   - uyghuraa.org
@@ -34386,6 +34400,7 @@ domain_suffix_set:
   - ytimg.com
   - ytn.co.kr
   - yuanzhengtang.org
+  - yucf.top
   - yuenuge113.xyz
   - yuenuge18.cc
   - yugioh-card.com
