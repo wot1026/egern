@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax_All_DNS
-# 规则统计: 112140
+# 规则统计: 112150
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -31,6 +31,7 @@ domain_set:
   - amdlive.ctnd.com.edgesuite.net
   - analytics.strava.com
   - antvlive.ab5c6921.cdnviet.com
+  - api.blipsandchitz.me
   - app-analytics-services.com
   - app-measurement-cn.com
   - app-measurement.com
@@ -28236,6 +28237,7 @@ domain_suffix_set:
   - dcyz.com
   - dcyzq.com
   - dczcsc.com
+  - dczcy.com
   - dczkj.com
   - dczy168.com
   - dd-advisor.com
@@ -29213,6 +29215,7 @@ domain_suffix_set:
   - didichuxing.com
   - dididapiao.com
   - dididi88.com
+  - didifinance.com
   - didiglobal.com
   - didimobility.co.jp
   - didimobility.com
@@ -36062,6 +36065,7 @@ domain_suffix_set:
   - fuca-china.com
   - fucantec.com
   - fuchaipower.com
+  - fuchenkj.com
   - fuchuangyu.com
   - fucol.club
   - fuczx.com
@@ -47543,6 +47547,7 @@ domain_suffix_set:
   - hrs100.com
   - hrsalon.org
   - hrsay.com
+  - hrsecn.com
   - hrsee.com
   - hrsel.com
   - hrsoft-china.com
@@ -54190,6 +54195,7 @@ domain_suffix_set:
   - jieshui8.com
   - jieshuitech.com
   - jieshuwang.com
+  - jietianz.com
   - jietu365.com
   - jietuhb.com
   - jietuosh.com
@@ -80032,6 +80038,7 @@ domain_suffix_set:
   - sdseshealth.com
   - sdsfjy.com
   - sdshangya.com
+  - sdshdc.com
   - sdshgk.com
   - sdshihua.com
   - sdshitu.com
@@ -81714,6 +81721,7 @@ domain_suffix_set:
   - shicaizhanlan.com
   - shicehao.com
   - shichangbu.com
+  - shicheng6.com
   - shichengbao.com
   - shichengyi.com
   - shichuangsj.com
@@ -92149,6 +92157,7 @@ domain_suffix_set:
   - ulikestatic.com
   - ulinix.com
   - ulinix.tv
+  - ulongemg.com
   - ulpay.com
   - ultracachenode.com
   - ultraeda.com
@@ -106946,6 +106955,7 @@ domain_suffix_set:
   - yximgs.com
   - yxin18.com
   - yxinbao.com
+  - yxingfan.com
   - yxintent.com
   - yxit.net
   - yxixy.com
