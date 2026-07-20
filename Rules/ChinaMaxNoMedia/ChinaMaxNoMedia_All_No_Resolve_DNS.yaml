@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoMedia_All_No_Resolve_DNS
-# 规则统计: 111711
+# 规则统计: 111712
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -67409,6 +67409,7 @@ domain_suffix_set:
   - mychuguan.com
   - mychunyan.net
   - myckjr.com
+  - mycloudnas.com
   - mycloudstudy.com
   - myclub2.com
   - mycnc.org

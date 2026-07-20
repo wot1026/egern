@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoIP_All_No_Resolve
-# 规则统计: 111883
+# 规则统计: 111884
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -67479,6 +67479,7 @@ domain_suffix_set:
   - mychuguan.com
   - mychunyan.net
   - myckjr.com
+  - mycloudnas.com
   - mycloudstudy.com
   - myclub2.com
   - mycnc.org

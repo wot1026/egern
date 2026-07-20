@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve
-# 规则统计: 34893
+# 规则统计: 34894
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -24921,6 +24921,7 @@ domain_suffix_set:
   - qmw.ac.uk
   - qmzdd.com
   - qnap.com
+  - qnapsupport.net
   - qobuz.com
   - qombol.com
   - qoo-app.com

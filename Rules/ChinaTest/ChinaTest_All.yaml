@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All
-# 规则统计: 111900
+# 规则统计: 111901
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -67476,6 +67476,7 @@ domain_suffix_set:
   - mychunyan.net
   - myckjr.com
   - mycleanmymac.com
+  - mycloudnas.com
   - mycloudstudy.com
   - myclub2.com
   - mycnc.org

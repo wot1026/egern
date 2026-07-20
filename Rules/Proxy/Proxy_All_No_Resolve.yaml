@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_No_Resolve
-# 规则统计: 6888
+# 规则统计: 6889
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -41,6 +41,7 @@ domain_suffix_set:
   - 18board.com
   - 18board.info
   - 18comic.org
+  - 18comic.vip
   - 18mh.net
   - 18onlygirls.com
   - 18p2p.com
