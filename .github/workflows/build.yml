@@ -129,15 +129,34 @@ jobs:
             ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > "${file}.sorted" && mv "${file}.sorted" "$file"
 
             # 去重: IP-CIDR/IP-CIDR6 先剥离 no-resolve 后缀再比较值本身,
-            # 避免 "1.1.1.0/24,no-resolve" 和 "1.1.1.0/24" 被当成两条不同规则保留
+            # 避免 "1.1.1.0/24,no-resolve" 和 "1.1.1.0/24" 被当成两条不同规则保留。
+            #
+            # [修复] 原实现用单遍 `!seen[key]++`，排序后不带 no-resolve 的行
+            # 字典序更靠前，冲突时永远是不带 no-resolve 的那条被保留、带
+            # no-resolve 的那条被丢弃——这会导致下一步 Step 5 的 has_no_resolve
+            # 检测漏判，使本该写入的 `no_resolve: true` 全局字段丢失。
+            # 现改为两遍扫描：先收集每个 key 是否存在任意一条带 no-resolve
+            # 的版本，输出时如果某个 key 有 no-resolve 版本，则只保留该版本、
+            # 丢弃不带的重复行；没有冲突的 key 行为和之前完全一致（已用真实
+            # 上游数据回归验证，无冲突场景下新旧逻辑输出完全相同）。
             awk -F',' '
+            NR==FNR {
+              key = tolower($0)
+              if ($1 == "IP-CIDR" || $1 == "IP-CIDR6") {
+                key = tolower($1 "," $2)
+                if ($0 ~ /,no-resolve$/) has_noresolve[key] = 1
+              }
+              next
+            }
             {
               key = tolower($0)
               if ($1 == "IP-CIDR" || $1 == "IP-CIDR6") {
                 key = tolower($1 "," $2)
+                is_noresolve = ($0 ~ /,no-resolve$/)
+                if (has_noresolve[key] && !is_noresolve) next
               }
               if (!seen[key]++) print
-            }' "$file" > "${file}.uniq" && mv "${file}.uniq" "$file"
+            }' "$file" "$file" > "${file}.uniq" && mv "${file}.uniq" "$file"
           done
 
       # =======================================================================
