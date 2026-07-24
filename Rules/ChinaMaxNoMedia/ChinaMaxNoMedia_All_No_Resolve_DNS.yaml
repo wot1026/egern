@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoMedia_All_No_Resolve_DNS
-# 规则统计: 111768
+# 规则统计: 111772
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -19417,6 +19417,7 @@ domain_suffix_set:
   - cd-zc.com
   - cd00c44f211031.beer
   - cd120.com
+  - cd120.info
   - cd12371.com
   - cd1958.com
   - cd20.net
@@ -66505,6 +66506,7 @@ domain_suffix_set:
   - moe321.com
   - moeclub.org
   - moedot.net
+  - moedu.com
   - moeelf.com
   - moefactory.com
   - moefantasy.com
@@ -90547,6 +90549,7 @@ domain_suffix_set:
   - tsingpost.com
   - tsingshang.com
   - tsingtek.com
+  - tsingtengms.com
   - tsingtoo.com
   - tsingtuo.com
   - tsingyangroup.com
@@ -98154,6 +98157,7 @@ domain_suffix_set:
   - xcxymw.com
   - xcxzww.com
   - xcyg.net
+  - xcz.im
   - xczhmzb.com
   - xczhsh.com
   - xczim.com
