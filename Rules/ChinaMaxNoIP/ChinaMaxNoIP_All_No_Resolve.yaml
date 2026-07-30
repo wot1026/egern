@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoIP_All_No_Resolve
-# 规则统计: 111944
+# 规则统计: 111945
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -100615,6 +100615,7 @@ domain_suffix_set:
   - xmmuye.com
   - xmnjdwx.com
   - xmocloud01.com
+  - xmoj.tech
   - xmonecode.com
   - xmos.tv
   - xmov.ai

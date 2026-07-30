@@ -1,5 +1,5 @@
 # 规则名称: Global_All_DNS
-# 规则统计: 34748
+# 规则统计: 34755
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -4787,6 +4787,7 @@ domain_suffix_set:
   - bluestacks.com
   - bluestone.ac.uk
   - bluffyporn.com
+  - blurams.app
   - blurams.com
   - blws.ac.uk
   - blylq.buzz
@@ -6504,6 +6505,7 @@ domain_suffix_set:
   - cencoastbmw.com
   - cenews.eu
   - cenkei.com
+  - ceno.app
   - censorship.ai
   - censorship.no
   - census-registration.ac.uk
@@ -12877,6 +12879,7 @@ domain_suffix_set:
   - githubnext.com
   - githubpreview.dev
   - githubstatus.com
+  - githubsupport.com
   - githubuniverse.com
   - githubusercontent.com
   - gitlab-static.net
@@ -16655,6 +16658,7 @@ domain_suffix_set:
   - ivacy.com
   - iverycd.com
   - ivi.ru
+  - ivicdn.tv
   - ivintageporn.com
   - ivonblog.com
   - ivpn.net
@@ -17571,6 +17575,7 @@ domain_suffix_set:
   - kindnudist.com
   - kinds.ac.uk
   - kindteenporn.com
+  - kinescopecdn.net
   - king.ac.uk
   - kingalfreds.ac.uk
   - kingalfredsbasingstoke.ac.uk
@@ -26269,6 +26274,7 @@ domain_suffix_set:
   - sber.ru
   - sberauto.com
   - sberbank-insurance.ru
+  - sberbank-tele.com
   - sberbank.com
   - sberbank.ru
   - sberbankaktivno.ru
@@ -30084,6 +30090,7 @@ domain_suffix_set:
   - truyentranh86.com
   - truyenwk.com
   - try.rw
+  - tryai.dev
   - tryalias.com
   - tryboobs.com
   - trycloudflare.com

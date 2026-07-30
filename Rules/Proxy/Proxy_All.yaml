@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All
-# 规则统计: 6895
+# 规则统计: 6896
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -5739,6 +5739,7 @@ domain_suffix_set:
   - truthontour.org
   - truthsocial.com
   - truveo.com
+  - tryai.dev
   - tryheart.jp
   - tsctv.net
   - tsemtulku.com

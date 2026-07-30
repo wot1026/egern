@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_No_Resolve
-# 规则统计: 6895
+# 规则统计: 6896
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -5740,6 +5740,7 @@ domain_suffix_set:
   - truthontour.org
   - truthsocial.com
   - truveo.com
+  - tryai.dev
   - tryheart.jp
   - tsctv.net
   - tsemtulku.com
