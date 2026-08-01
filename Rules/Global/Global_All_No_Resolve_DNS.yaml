@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 34755
+# 规则统计: 34777
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -2323,6 +2323,7 @@ domain_suffix_set:
   - api.nebula-emby.com
   - api.news
   - apiary.io
+  - apiauto.ru
   - apibay.org
   - apigee.com
   - apina.biz
@@ -3100,6 +3101,7 @@ domain_suffix_set:
   - authorxml.com
   - authpass.app
   - authy.com
+  - auto.ru
   - autocad-schulungen.com
   - autocad.com
   - autocad360.com
@@ -3238,6 +3240,7 @@ domain_suffix_set:
   - automaton-media.com
   - automobile.fr
   - automotive-cadcam.com
+  - autoru.me
   - autosketch.com
   - autosub.ac.uk
   - autumn-jade.com
@@ -3351,6 +3354,7 @@ domain_suffix_set:
   - avstar6.com
   - avstar8.com
   - avstar9.com
+  - avto.ru
   - avwong.com
   - avwto.com
   - avxde.org
@@ -6736,6 +6740,8 @@ domain_suffix_set:
   - cheshire.ac.uk
   - cheshirecolleges.ac.uk
   - cheshirehe.ac.uk
+  - chess.com
+  - chesscomfiles.com
   - chest.ac.uk
   - chester.ac.uk
   - chesterfield.ac.uk
@@ -6922,6 +6928,9 @@ domain_suffix_set:
   - ci-en.net
   - cia.ac.uk
   - cia.gov
+  - cian.ru
+  - cian.site
+  - ciangroup.ru
   - cias.ac.uk
   - ciattackers.com
   - cib.ac.uk
@@ -7222,6 +7231,7 @@ domain_suffix_set:
   - clydebank.ac.uk
   - clyp.it
   - clzz2.xyz
+  - cm.expert
   - cmac.ac.uk
   - cmail19.com
   - cmcn.org
@@ -8950,6 +8960,7 @@ domain_suffix_set:
   - dmed.technology
   - dmgmediaprivacy.co.uk
   - dmhy.org
+  - dmir.ru
   - dmit.io
   - dmit.sh
   - dml-lang.org
@@ -9260,6 +9271,7 @@ domain_suffix_set:
   - drnastran.com
   - drns.ac.uk
   - drobbox.pro
+  - drom.ru
   - dronedj.com
   - dropbooks.tv
   - dropbox-dns.com
@@ -22492,6 +22504,7 @@ domain_suffix_set:
   - nzchinese.com
   - nzchinese.net.nz
   - o-courier.ru
+  - o-uchi.ru
   - o2action.co.kr
   - o3.ru
   - o365weve-dev.com
@@ -24483,6 +24496,7 @@ domain_suffix_set:
   - potteries.ac.uk
   - potterieseducationaltrust.ac.uk
   - potvpn.com
+  - poudobnee.com
   - pourquoi.tw
   - poverty.ac.uk
   - povpornonly.com
@@ -25288,6 +25302,7 @@ domain_suffix_set:
   - rdio.com
   - rdmrsc.ac.uk
   - rdnet.ac.uk
+  - rdrom.ru
   - rds-yes.buzz
   - rdtcdn.com
   - re-net.ac.uk
@@ -25375,6 +25390,7 @@ domain_suffix_set:
   - realtor.com
   - realtype.co.jp
   - realtype.jp
+  - realtyverif.ru
   - realvision.com
   - realviz.com
   - realzoomovies.com
@@ -30539,6 +30555,7 @@ domain_suffix_set:
   - ucg.ac.uk
   - uchi.ru
   - uchicago.edu
+  - uchilk.ru
   - ucisa.ac.uk
   - ucl-status.ac.uk
   - ucl.ac.uk
@@ -31062,6 +31079,7 @@ domain_suffix_set:
   - v-resort.ac.uk
   - v.gd
   - v.ps
+  - v.recipes
   - v.roucdn
   - v2.help
   - v2.hysteria.network
@@ -33300,6 +33318,7 @@ domain_suffix_set:
   - xn----8sbeoy5bze.com
   - xn----8sbkfzespdwig.xn--p1ai
   - xn----8sbwjbxyd.xn--p1ai
+  - xn----otbzjdu.xn--p1ai
   - xn--096-4g6em5t.com
   - xn--11xs86f.icu
   - xn--1jqvh729avzfcy2d8ummib.com
@@ -33319,7 +33338,9 @@ domain_suffix_set:
   - xn--74q434dwff.net
   - xn--7hv594h.com
   - xn--80a9a4b.xn--p1ai
+  - xn--80aaafbpzn5blfby1p.xn--p1ai
   - xn--80aaazx1an0a.lol
+  - xn--80aaeib8abrryx4k.xn--p1ai
   - xn--80aafgovrgbc7am.xn--p1ai
   - xn--80acbjgmges7ca.xn--p1ai
   - xn--80acbjgsdq2cl.xn--p1ai
@@ -34062,6 +34083,7 @@ domain_suffix_set:
   - ymhsf.top
   - ymhsf1.top
   - ync.ne.jp
+  - yndx.net
   - ynoproject.net
   - yo-star.com
   - yo1health.com
