@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax_All
-# 规则统计: 124454
+# 规则统计: 124524
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -2236,6 +2236,7 @@ domain_suffix_set:
   - 168267xz.com
   - 168338.com
   - 16838.com
+  - 1685188.com
   - 1686888.com
   - 1688.com
   - 16885.com
@@ -3029,6 +3030,7 @@ domain_suffix_set:
   - 202271.xyz
   - 2023.com
   - 2023game.com
+  - 20240828.xyz
   - 2024qq.com
   - 2025.net
   - 2026cname.com
@@ -3596,6 +3598,7 @@ domain_suffix_set:
   - 2emai.com
   - 2f.com
   - 2f24ad2dc10261.beer
+  - 2fa.vip
   - 2facb31bb10272.beer
   - 2fda37d4c10292.beer
   - 2gdt.com
@@ -5623,6 +5626,7 @@ domain_suffix_set:
   - 51julebu.com
   - 51junde.com
   - 51junshi.com
+  - 51kandianshi.com
   - 51kanmanhua.com
   - 51kanong.com
   - 51kaola.net
@@ -15906,6 +15910,7 @@ domain_suffix_set:
   - bigbrx.com
   - bigcakegame.com
   - bigcat.com
+  - bigcoder.xyz
   - bigda.com
   - bigdata-expo.org
   - bigdata.ren
@@ -17316,6 +17321,7 @@ domain_suffix_set:
   - bohe.com
   - bohejiasuqi.com
   - bohewangluo.com
+  - bohrium.com
   - bohu.co
   - bohua.com
   - bohuanchina.com
@@ -18637,6 +18643,7 @@ domain_suffix_set:
   - cagetest.com
   - cageystone.com
   - cagoe.com
+  - cahwfeh.com
   - cai-ba.com
   - cai110.com
   - cai58t.com
@@ -26291,6 +26298,7 @@ domain_suffix_set:
   - cspro.org
   - cspruc.com
   - csptia.org
+  - csqaq.com
   - csqsg.com
   - csrcare.com
   - csrcbank.com
@@ -31762,6 +31770,7 @@ domain_suffix_set:
   - ebsfw.com
   - ebt.group
   - ebtang.com
+  - ebtool.com
   - ebtrust.com
   - ebuckler.com
   - ebumbrella.com
@@ -31817,6 +31826,7 @@ domain_suffix_set:
   - ecer.com
   - ecerdns.com
   - ecerimg.com
+  - eceshi.com
   - ecf-gov.com
   - ecgci.com
   - ecgoods.com
@@ -32939,6 +32949,7 @@ domain_suffix_set:
   - ernaonet.com
   - ernest.me
   - eroacg.com
+  - erocraft.com
   - erongdu.com
   - erp198.com
   - erp321.com
@@ -33941,6 +33952,7 @@ domain_suffix_set:
   - fankhome.com
   - fankuweb.com
   - fanli.com
+  - fanliang.cc
   - fanlibei.com
   - fanlihe.com
   - fanlihi.com
@@ -34260,6 +34272,7 @@ domain_suffix_set:
   - fdcyun.com
   - fdczbstatic.com
   - fdd0cd79c10281.beer
+  - fddhlaw.com
   - fdeent.org
   - fdeer.com
   - fdevops.com
@@ -35077,6 +35090,7 @@ domain_suffix_set:
   - fjmotor.net
   - fjmstc.com
   - fjmzw.com
+  - fjmzx.com
   - fjndwb.com
   - fjnet.com
   - fjnhjt.com
@@ -35861,6 +35875,7 @@ domain_suffix_set:
   - fsjsdtc.com
   - fsjx.org
   - fsjy.net
+  - fsk-download.com
   - fsky.pro
   - fskzpw.com
   - fslgz.com
@@ -36131,6 +36146,7 @@ domain_suffix_set:
   - fupin832.com
   - furagon.com
   - furama-beihai.com
+  - furapi.com
   - furderdriving.com
   - furenchina.com
   - furenkeji.com
@@ -37622,6 +37638,7 @@ domain_suffix_set:
   - geekerconsulting.com
   - geekerhua.com
   - geekfans.com
+  - geekhour.net
   - geeklei.com
   - geekluo.com
   - geekmaker.com
@@ -37690,6 +37707,7 @@ domain_suffix_set:
   - geiniwan.com
   - geizan.cc
   - gelaha.com
+  - gelaiyun.net
   - gelicang.net
   - geline.net
   - gelinya.com
@@ -43821,6 +43839,7 @@ domain_suffix_set:
   - haojiao.net
   - haojiaolian.com
   - haojie.work
+  - haojieyun.com
   - haojing.org
   - haojit.com
   - haoju5.com
@@ -45691,6 +45710,7 @@ domain_suffix_set:
   - hicheng.net
   - hichina.com
   - hichina.net
+  - hichip.net
   - hichipharm.com
   - hichips.com
   - hicitech.com
@@ -46333,6 +46353,7 @@ domain_suffix_set:
   - hncfa.com
   - hncgkgjt.com
   - hnchaosu.com
+  - hnchasing.com
   - hnchemtech.com
   - hnchuangj.net
   - hnchuangxiangkj.com
@@ -49039,6 +49060,7 @@ domain_suffix_set:
   - hxdpay.com
   - hxdrisk.com
   - hxdsbgg.com
+  - hxdsmy.com
   - hxdspa.com
   - hxdtekf.com
   - hxen.com
@@ -49812,6 +49834,7 @@ domain_suffix_set:
   - hzzrmc.com
   - hzzsfs.com
   - hzzsxh.com
+  - hzzszf.com
   - hzztkj.com
   - hzzuyin.com
   - hzzx365.com
@@ -50419,6 +50442,7 @@ domain_suffix_set:
   - idataway.com
   - idatawz.com
   - idayer.com
+  - idazhe.net
   - idbhost.com
   - idc-icp.com
   - idc002.com
@@ -50567,6 +50591,7 @@ domain_suffix_set:
   - iduodou.com
   - iduokan.net
   - idux-vw.com
+  - idwuhan.com
   - idwzx.com
   - idx365.com
   - ie13.com
@@ -57457,6 +57482,7 @@ domain_suffix_set:
   - kaihuia.com
   - kaijia-smt.com
   - kaijia.com
+  - kaijiacloud.com
   - kaijiage.com
   - kaijiejinrong.com
   - kaijieunion.com
@@ -62091,6 +62117,7 @@ domain_suffix_set:
   - liwai.com
   - liwanggui.com
   - liwanght.com
+  - liwei.biz
   - liweiauto.com
   - liweijia.com
   - liweijituan.com
@@ -62408,6 +62435,7 @@ domain_suffix_set:
   - lnsslhyxh.com
   - lnsyzx.com
   - lnszyjt.com
+  - lntongyu.com
   - lntvu.com
   - lntycp.com
   - lnvipsoft.com
@@ -66333,6 +66361,7 @@ domain_suffix_set:
   - miyapay.com
   - miyateam.com
   - miyatech.com
+  - miyavip.vip
   - miyilink.com
   - miyoushe.com
   - miyouu.com
@@ -69731,6 +69760,7 @@ domain_suffix_set:
   - nlteck.com
   - nlttms.com
   - nlxn.com
+  - nlyd.club
   - nlypx.com
   - nlyzzzxrmyy.com
   - nlzpw.com
@@ -73119,6 +73149,7 @@ domain_suffix_set:
   - pkfish.com
   - pkfj.xyz
   - pkfun.com
+  - pkfwealth.com
   - pkgame.com
   - pkghund.com
   - pkgklk.com
@@ -73998,6 +74029,7 @@ domain_suffix_set:
   - puxiang.com
   - puxindesign.com
   - puxun.co
+  - puyasemi.com
   - puyideshiye.com
   - puyimed.com
   - puyuan-electric.com
@@ -75501,6 +75533,7 @@ domain_suffix_set:
   - qjjfin.com
   - qjjmw.com
   - qjmotor.com
+  - qjmotorlink.com
   - qjnice.com
   - qjrc.com
   - qjren.com
@@ -79515,6 +79548,7 @@ domain_suffix_set:
   - scyesz.com
   - scylzx.net
   - scymob.com
+  - scyol.com
   - scyongqin.com
   - scyqfhw.com
   - scyqjs.com
@@ -84908,6 +84942,7 @@ domain_suffix_set:
   - stanlyview.com
   - staofchina.com
   - stapharma.com
+  - staplescn.com
   - star-charge.com
   - star-elink.com
   - star-engine.com
@@ -85128,6 +85163,7 @@ domain_suffix_set:
   - streamax.com
   - streamaxtech.com
   - streamcomputing.com
+  - streamlake.com
   - streamlakeapi.com
   - streffy.com
   - strinova.com
@@ -85695,6 +85731,7 @@ domain_suffix_set:
   - suqishi.com
   - suqnn.com
   - suqun-group.com
+  - suredeliverses.com
   - surely.cool
   - surerp.com
   - surface.download.prss.microsoft.com
@@ -86473,6 +86510,7 @@ domain_suffix_set:
   - szautism.com
   - szbaba.com
   - szbaike.com
+  - szbaisc.com
   - szbaleng.com
   - szbaoly.com
   - szbaoming.com
@@ -91849,6 +91887,7 @@ domain_suffix_set:
   - ugc-up-dom.net
   - ugdesk.com
   - ugdocker.link
+  - ugediao.com
   - uggame.com
   - uggd.com
   - ugirls.tv
@@ -98007,6 +98046,7 @@ domain_suffix_set:
   - x-cloud.cc
   - x-cmd.com
   - x-droners.com
+  - x-gpu.com
   - x-imagine.com
   - x-jishu.com
   - x-kicks.com
@@ -98325,6 +98365,7 @@ domain_suffix_set:
   - xcoder.in
   - xcommon.com
   - xcoodir.com
+  - xcoresigma.com
   - xcot.com
   - xcpapa.site
   - xcpapa.xyz
@@ -99169,6 +99210,7 @@ domain_suffix_set:
   - xiaomagaojian.com
   - xiaomai.live
   - xiaomai5.com
+  - xiaomaicn.com
   - xiaomaidong.com
   - xiaomaigongkao.com
   - xiaomaigui.com
@@ -100140,6 +100182,7 @@ domain_suffix_set:
   - xinyoudui.com
   - xinyour.com
   - xinyu-tam.com
+  - xinyu1234.xyz
   - xinyu19.com
   - xinyuanclub.com
   - xinyuanf.com
@@ -100882,6 +100925,7 @@ domain_suffix_set:
   - xn--fjq720a
   - xn--g2xx48c
   - xn--glr604k.com
+  - xn--gmq22ktps713c.cc
   - xn--gmqr9gdtrhuf56g.com
   - xn--h5qy75o.vip
   - xn--husx9zj2eepau0se83d.com
@@ -104278,6 +104322,7 @@ domain_suffix_set:
   - yizeseafood.com
   - yizhanapp.com
   - yizhang8.com
+  - yizhangtu.com
   - yizhanhulian.com
   - yizhanzx.com
   - yizhaopin.com
@@ -104949,6 +104994,7 @@ domain_suffix_set:
   - yoseleather.com
   - yostar.net
   - yostatic.com
+  - yosulife.com
   - yotopic.com
   - you-mi.net
   - you03.com
@@ -106519,6 +106565,7 @@ domain_suffix_set:
   - yunzz.net
   - yuoucn.com
   - yupao.com
+  - yupaoad.com
   - yupaowang.com
   - yupeiholdings.com
   - yupinny.com
@@ -106903,6 +106950,7 @@ domain_suffix_set:
   - yyh78.com
   - yyha168.com
   - yyhao.com
+  - yyhdadx.com
   - yyhh.com
   - yyhn365.com
   - yyhybz.com
@@ -109296,6 +109344,7 @@ domain_suffix_set:
   - zhuanghebm.com
   - zhuangji.net
   - zhuangjiba.com
+  - zhuangjidiy.com
   - zhuangjinshanhe.com
   - zhuangkou.com
   - zhuangku.com
@@ -111775,6 +111824,7 @@ domain_suffix_set:
   - zzcdnx.com
   - zzcjby.com
   - zzcjxy.com
+  - zzclass.com
   - zzcomm.com
   - zzcrcgas.com
   - zzd.pub
@@ -118808,6 +118858,7 @@ ip_cidr_set:
   - 109.134.14.71/32
   - 109.134.18.213/32
   - 109.172.100.0/24
+  - 109.176.134.0/24
   - 109.244.0.0/16
   - 109.66.143.0/24
   - 109.66.24.0/24
@@ -119572,6 +119623,7 @@ ip_cidr_set:
   - 138.124.104.0/23
   - 138.124.106.0/24
   - 138.124.17.0/24
+  - 138.252.118.0/24
   - 138.252.72.0/23
   - 138.32.244.0/24
   - 139.129.0.0/16
@@ -119661,6 +119713,7 @@ ip_cidr_set:
   - 140.255.0.0/16
   - 140.75.0.0/16
   - 141.11.219.0/24
+  - 141.11.93.0/24
   - 142.70.0.0/16
   - 142.86.0.0/16
   - 143.109.55.0/24
@@ -119842,6 +119895,8 @@ ip_cidr_set:
   - 154.19.88.0/21
   - 154.19.96.0/19
   - 154.197.128.0/17
+  - 154.198.10.0/24
+  - 154.208.67.0/24
   - 154.209.251.0/24
   - 154.36.92.0/23
   - 154.72.42.0/24
@@ -119852,8 +119907,11 @@ ip_cidr_set:
   - 154.84.180.0/24
   - 154.89.32.0/20
   - 154.91.158.0/23
+  - 154.94.60.0/24
   - 155.102.0.0/16
   - 155.117.138.0/24
+  - 155.117.222.0/24
+  - 155.117.8.0/24
   - 155.126.176.0/23
   - 156.107.107.147/32
   - 156.107.107.152/29
@@ -119976,6 +120034,7 @@ ip_cidr_set:
   - 157.20.194.0/23
   - 157.20.246.0/23
   - 157.20.33.0/24
+  - 157.254.130.0/24
   - 157.255.0.0/16
   - 157.61.0.0/16
   - 157.66.164.0/23
@@ -120076,6 +120135,7 @@ ip_cidr_set:
   - 162.105.0.0/16
   - 162.14.0.0/16
   - 162.141.140.0/24
+  - 162.141.152.0/24
   - 162.62.240.0/23
   - 162.62.242.0/24
   - 163.0.0.0/16
@@ -120141,6 +120201,7 @@ ip_cidr_set:
   - 166.111.0.0/16
   - 166.118.227.88/32
   - 167.139.0.0/16
+  - 167.148.81.0/24
   - 167.167.208.0/22
   - 167.167.212.0/23
   - 167.189.0.0/16
@@ -120559,6 +120620,7 @@ ip_cidr_set:
   - 193.233.49.0/24
   - 193.3.56.73/32
   - 193.32.227.48/28
+  - 193.39.10.0/24
   - 193.56.20.0/24
   - 193.8.215.0/24
   - 193.8.231.0/24
@@ -122196,6 +122258,7 @@ ip_cidr_set:
   - 213.189.17.0/24
   - 213.199.169.0/24
   - 213.214.110.0/24
+  - 213.218.216.0/24
   - 213.255.231.0/24
   - 216.246.39.189/32
   - 217.146.9.192/28
@@ -123302,6 +123365,8 @@ ip_cidr_set:
   - 31.133.128.0/18
   - 31.40.214.0/24
   - 31.42.183.48/32
+  - 31.57.0.0/24
+  - 31.57.167.0/24
   - 31.77.184.0/22
   - 31.77.215.0/24
   - 35.71.107.0/24
@@ -124169,6 +124234,7 @@ ip_cidr_set:
   - 50.114.187.0/24
   - 50.7.161.82/32
   - 51.15.0.141/32
+  - 51.194.180.0/24
   - 52.119.248.0/24
   - 52.130.0.0/15
   - 52.144.224.192/26
@@ -124310,6 +124376,7 @@ ip_cidr_set:
   - 66.102.248.0/22
   - 66.102.252.0/24
   - 66.102.254.0/23
+  - 66.117.159.0/24
   - 66.119.149.0/24
   - 67.199.152.160/28
   - 67.199.154.248/29
@@ -124354,6 +124421,7 @@ ip_cidr_set:
   - 75.75.236.0/29
   - 77.73.8.0/24
   - 79.176.213.0/24
+  - 79.176.227.0/24
   - 79.176.77.0/24
   - 79.182.45.0/24
   - 8.128.0.0/10
@@ -124368,6 +124436,7 @@ ip_cidr_set:
   - 82.139.229.0/24
   - 82.156.0.0/15
   - 82.163.16.0/24
+  - 82.29.45.0/24
   - 82.38.46.0/23
   - 83.245.71.0/24
   - 85.12.7.192/28
@@ -124376,6 +124445,7 @@ ip_cidr_set:
   - 85.239.154.0/24
   - 87.232.115.0/24
   - 87.254.207.0/24
+  - 87.76.149.0/24
   - 87.76.221.0/24
   - 87.76.222.0/24
   - 89.30.124.160/30
