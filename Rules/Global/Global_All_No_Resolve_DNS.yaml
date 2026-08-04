@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 34777
+# 规则统计: 34786
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -1024,6 +1024,7 @@ domain_suffix_set:
   - actalis.com
   - actalis.it
   - actfortibet.org
+  - actifio.com
   - actimes.com.au
   - activatelearning.ac.uk
   - activelearnprimary.co.uk
@@ -16974,7 +16975,10 @@ domain_suffix_set:
   - jetbrains.ai
   - jetbrains.cloud
   - jetbrains.com
+  - jetbrains.dev
   - jetbrains.net
+  - jetbrains.org
+  - jetbrains.ru
   - jetbrains.space
   - jetbrains.team
   - jetfuelapp.com
@@ -17725,6 +17729,8 @@ domain_suffix_set:
   - koshelek.app
   - koskade.com
   - kostenlosepornoclips.com
+  - kotl.in
+  - kotlinconf.com
   - kotlinlang.org
   - koubaibu.jp
   - koukoku.jp
@@ -17759,6 +17765,7 @@ domain_suffix_set:
   - kssdeanery.ac.uk
   - ksyp10.com
   - ktech.team
+  - ktor.io
   - ktvu.com
   - ktzhk.com
   - ku77.xyz
@@ -20933,6 +20940,7 @@ domain_suffix_set:
   - myiphide.com
   - myiphider.com
   - myipod.net
+  - myjetbrains.com
   - myjkwd.com
   - myjs.tw
   - mykomica.org
@@ -22235,6 +22243,7 @@ domain_suffix_set:
   - ntdvn.com
   - ntec.ac.uk
   - ntfs.ac.uk
+  - nthlink.com
   - ntidagenham.ac.uk
   - ntl.fyi
   - ntnews.com.au
@@ -22906,6 +22915,7 @@ domain_suffix_set:
   - openweave.io
   - openwebster.com
   - openwrt.org
+  - openxla.org
   - opera-archive.ac.uk
   - opera-mini.net
   - opera.com
@@ -25120,7 +25130,6 @@ domain_suffix_set:
   - radiofarda.com
   - radioglobo.com.br
   - radiohilight.net
-  - radiojar.com
   - radioline.co
   - radiomango.fm
   - radiomarsho.com
@@ -28897,6 +28906,7 @@ domain_suffix_set:
   - talkboxapp.com
   - talkcc.com
   - talkinghealthmatters.ac.uk
+  - talkingkotlin.com
   - talkonly.net
   - talksport.com
   - tamescol.ac.uk
@@ -33050,7 +33060,6 @@ domain_suffix_set:
   - www-paypal.info
   - www-paypal.us
   - www-sms-apple.com
-  - www.clashverge.dev
   - www.destinationurl.com
   - www.pxcc.com
   - www.sb

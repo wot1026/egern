@@ -988,6 +988,7 @@ domain_suffix_set:
   - centerforhumanreprod.com
   - centralnation.com
   - centurys.net
+  - cerebras.ai
   - certificate-transparency.org
   - cex.io
   - cfhks.org.hk
@@ -1116,6 +1117,7 @@ domain_suffix_set:
   - chromercise.com
   - chromestatus.com
   - chromium.org
+  - cht.com.tw
   - chuang-yen.org
   - chubold.com
   - chubun.com
@@ -3740,7 +3742,6 @@ domain_suffix_set:
   - movements.org
   - moves-export.com
   - moviefap.com
-  - mozilla.ai
   - mozilla.org
   - moztw.org
   - mp3buscador.com
@@ -4063,6 +4064,7 @@ domain_suffix_set:
   - ntdtv.jp
   - ntdtv.ru
   - ntdtvla.com
+  - nthlink.com
   - ntrfun.com
   - ntu.edu.tw
   - nu.nl
@@ -4628,7 +4630,6 @@ domain_suffix_set:
   - radio.garden
   - radioaustralia.net.au
   - radiohilight.net
-  - radiojar.com
   - radioline.co
   - radiotime.com
   - radiovaticana.org
@@ -6451,7 +6452,6 @@ domain_suffix_set:
   - wuyanblog.com
   - wwe.com
   - wwitv.com
-  - www.clashverge.dev
   - www.lamenhu.com
   - www.orchidbbs.com
   - www.taup.org.tw
