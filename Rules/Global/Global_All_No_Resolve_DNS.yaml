@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 34786
+# 规则统计: 34800
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -8275,6 +8275,8 @@ domain_suffix_set:
   - deeping.ac.uk
   - deepl.com
   - deepmind.com
+  - deepwiki.com
+  - deepwiki.org
   - deeside.ac.uk
   - deezer.com
   - defac.ac.uk
@@ -11640,8 +11642,11 @@ domain_suffix_set:
   - fluids.ac.uk
   - flutter.dev
   - flutterapp.com
+  - fly.dev
+  - fly.io
   - flyflv.com
   - flyingjizz.com
+  - flyio.net
   - flypool.org
   - flyvpn.com
   - flyyindh-cc.sbs
@@ -12938,6 +12943,7 @@ domain_suffix_set:
   - glenfife.ac.uk
   - glenrothes-college.ac.uk
   - glhl.ac.uk
+  - glitchwave.com
   - gllm.ac.uk
   - global-sci.org
   - global.market.xiaomi.com
@@ -23125,14 +23131,17 @@ domain_suffix_set:
   - ozon-credit.ru
   - ozon-dostavka.ru
   - ozon-tech.ru
+  - ozon.app
   - ozon.by
   - ozon.com
   - ozon.com.by
   - ozon.com.kz
   - ozon.dev
   - ozon.express
+  - ozon.global
   - ozon.kz
   - ozon.li
+  - ozon.market
   - ozon.ru
   - ozon.tech
   - ozon.tm
@@ -26065,6 +26074,7 @@ domain_suffix_set:
   - rutracker.org
   - rutrecker.net
   - rutube.ru
+  - rutube.sport
   - rutubelist.ru
   - ruvideos.net
   - ruyiseek.com
@@ -26075,6 +26085,7 @@ domain_suffix_set:
   - rwbgeo.ru
   - rwcmd.ac.uk
   - rxhj.net
+  - rym.fm
   - ryokoyomiuri.co.jp
   - ryukyubank.co.jp
   - rzr.to
@@ -27558,6 +27569,7 @@ domain_suffix_set:
   - snk-corp.co.jp
   - snk-corp.info
   - snkplaymore.info
+  - snmc.io
   - snow.me
   - snowcorp.com
   - snowlionpub.com
@@ -27667,6 +27679,8 @@ domain_suffix_set:
   - somerset.ac.uk
   - somersetcolleges.ac.uk
   - sonatype.org
+  - sonematic.net
+  - sonemic.com
   - songjianjun.com
   - sonicbbs.cc
   - sonidodelaesperanza.org
