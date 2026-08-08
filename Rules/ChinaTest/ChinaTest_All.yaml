@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All
-# 规则统计: 111343
+# 规则统计: 111346
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -63583,6 +63583,7 @@ domain_suffix_set:
   - madajiefood.com
   - madaomall.com
   - madboxi.com
+  - made-in-china.com
   - madefuns.com
   - madeinchinastone.com
   - madewei.com
@@ -65329,6 +65330,7 @@ domain_suffix_set:
   - microxiang.com
   - microyan.com
   - microzuji.com
+  - micstatic.com
   - mictormedical.com
   - micu.hk
   - micun.com
@@ -72970,6 +72972,7 @@ domain_suffix_set:
   - powerchinayun.com
   - powerde.com
   - powereasy.net
+  - poweremarket.com
   - powerex1.com
   - powerflow-tech.com
   - powerfulchina.com

@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All_No_Resolve_DNS
-# 规则统计: 111297
+# 规则统计: 111300
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -63585,6 +63585,7 @@ domain_suffix_set:
   - madajiefood.com
   - madaomall.com
   - madboxi.com
+  - made-in-china.com
   - madefuns.com
   - madeinchinastone.com
   - madewei.com
@@ -65331,6 +65332,7 @@ domain_suffix_set:
   - microxiang.com
   - microyan.com
   - microzuji.com
+  - micstatic.com
   - mictormedical.com
   - micu.hk
   - micun.com
@@ -72972,6 +72974,7 @@ domain_suffix_set:
   - powerchinayun.com
   - powerde.com
   - powereasy.net
+  - poweremarket.com
   - powerex1.com
   - powerflow-tech.com
   - powerfulchina.com
