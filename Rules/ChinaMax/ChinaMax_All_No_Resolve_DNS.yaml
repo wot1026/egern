@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax_All_No_Resolve_DNS
-# 规则统计: 111634
+# 规则统计: 111637
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -51634,6 +51634,8 @@ domain_suffix_set:
   - iot688.com
   - iot889.com
   - iotachem.com
+  - iotaskyt.com
+  - iotaskyty.com
   - iotbay.com
   - iotfair.net
   - iotku.com
@@ -87546,6 +87548,7 @@ domain_suffix_set:
   - tbbbk.com
   - tbcache.com
   - tbcdn.com
+  - tbdesk.com
   - tbh5.com
   - tbhcc.com
   - tbhelper.com

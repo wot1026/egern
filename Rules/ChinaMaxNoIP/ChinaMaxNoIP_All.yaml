@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoIP_All
-# 规则统计: 111370
+# 规则统计: 111373
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -51365,6 +51365,8 @@ domain_suffix_set:
   - iot688.com
   - iot889.com
   - iotachem.com
+  - iotaskyt.com
+  - iotaskyty.com
   - iotbay.com
   - iotfair.net
   - iotku.com
@@ -87241,6 +87243,7 @@ domain_suffix_set:
   - tbbbk.com
   - tbcache.com
   - tbcdn.com
+  - tbdesk.com
   - tbh5.com
   - tbhcc.com
   - tbhelper.com

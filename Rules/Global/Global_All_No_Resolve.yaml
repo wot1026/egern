@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve
-# 规则统计: 35002
+# 规则统计: 35005
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -1423,6 +1423,7 @@ domain_suffix_set:
   - aib.ac.uk
   - aibaobei.me
   - aicoin.com
+  - aihub.top
   - aim25.ac.uk
   - aimei133.com
   - aimhighergreatermerseyside.ac.uk
@@ -8931,6 +8932,7 @@ domain_suffix_set:
   - distribution.qpdp1.net
   - dit-inc.us
   - divas.com.uy
+  - divdyn.com
   - diversityuk.ac.uk
   - diwodiwo.xyz
   - diyarbakirescort.com
@@ -10503,6 +10505,7 @@ domain_suffix_set:
   - esher.ac.uk
   - esi.ac.uk
   - esim.ac.uk
+  - esim.redteago.com
   - esiss.ac.uk
   - eskimotube.com
   - eslite.com
