@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax_All_No_Resolve
-# 规则统计: 124144
+# 规则统计: 124152
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -2723,6 +2723,7 @@ domain_suffix_set:
   - 194nb.com
   - 195155.com
   - 195268032591463.icu
+  - 1958xy.com
   - 195idc.com
   - 196b7adb23969e39.com
   - 196g.com
@@ -4335,6 +4336,7 @@ domain_suffix_set:
   - 36kr.net
   - 36krcdn.com
   - 36krcnd.com
+  - 36linkr.com
   - 36pnes36t0qs.com
   - 36qp.com
   - 36rv3j3.shop
@@ -14362,7 +14364,6 @@ domain_suffix_set:
   - bamboofactorychina.com
   - bambooolab.com
   - bambu-lab.com
-  - bambulab.com
   - bamengame.com
   - bamensq.com
   - bamenzhushou.com
@@ -16917,6 +16918,7 @@ domain_suffix_set:
   - bktencent.com
   - bktsj.com
   - bkweek.com
+  - bkzhibo.com
   - bkzzy.com
   - bl.com
   - bl0757.com
@@ -53259,6 +53261,7 @@ domain_suffix_set:
   - jgsemicon.com
   - jgstour.com
   - jgsxfw.com
+  - jgtab.link
   - jgtc315.com
   - jguanjia.com
   - jgums.com
@@ -55003,6 +55006,7 @@ domain_suffix_set:
   - jkyule.com
   - jkzhilu.com
   - jkzl.com
+  - jkzlrs.com
   - jkzn365.com
   - jl-er.com
   - jl-jssk.com
@@ -56653,6 +56657,7 @@ domain_suffix_set:
   - juwanhezi.com
   - juwanshe.com
   - juweixin.com
+  - juwinmedia.com
   - juwuxian.com
   - juxia.com
   - juxian.com
@@ -85873,6 +85878,7 @@ domain_suffix_set:
   - sxyj.net
   - sxyqgs.asia
   - sxyyc.net
+  - sxyygh.com
   - sxzhaobiao.com
   - sxzhongfei.com
   - sxzhyy.com
@@ -98400,6 +98406,7 @@ domain_suffix_set:
   - xhscdn.net
   - xhsd.com
   - xhsd.net
+  - xhsdzd.com
   - xhsf.com
   - xhslink.com
   - xhslw.com
@@ -118476,6 +118483,7 @@ ip_cidr_set:
   - 106.74.0.0/15
   - 106.8.0.0/15
   - 106.80.0.0/12
+  - 107.148.6.0/24
   - 107.149.9.0/24
   - 107.150.125.199/32
   - 107.151.212.0/24
@@ -119313,9 +119321,9 @@ ip_cidr_set:
   - 14.196.0.0/15
   - 14.204.0.0/15
   - 14.208.0.0/12
+  - 14.238.116.0/24
   - 14.255.16.0/24
   - 14.255.238.0/24
-  - 14.255.249.0/24
   - 14.255.254.0/24
   - 140.101.208.0/24
   - 140.143.0.0/16
@@ -119826,7 +119834,6 @@ ip_cidr_set:
   - 166.0.97.0/24
   - 166.1.139.0/24
   - 166.1.218.0/24
-  - 166.1.232.0/24
   - 166.111.0.0/16
   - 166.118.227.88/32
   - 167.139.0.0/16
@@ -123803,6 +123810,7 @@ ip_cidr_set:
   - 45.87.53.0/24
   - 45.87.54.0/24
   - 45.9.11.0/24
+  - 45.91.225.0/24
   - 46.102.251.0/25
   - 46.151.180.0/23
   - 46.151.182.0/24

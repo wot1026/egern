@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35005
+# 规则统计: 35045
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -1035,6 +1035,9 @@ domain_suffix_set:
   - activelearnprimary.com.au
   - activematter.game
   - activeteachonline.com
+  - activision.com
+  - activisionblizzard.com
+  - activisionblizzardmedia.com
   - activpn.com
   - actofunion.ac.uk
   - actris.ac.uk
@@ -4136,6 +4139,7 @@ domain_suffix_set:
   - bemywife.cc
   - benaughty.fun
   - benc.ac.uk
+  - benefitsforeveryworld.com
   - bengalisexvideos.com
   - benliton.com
   - bentobox.tv
@@ -5723,6 +5727,7 @@ domain_suffix_set:
   - building3dcontent.com
   - builtenvsigns.ac.uk
   - builtfromebay.com
+  - builtwithnix.org
   - bukkake-jav.com
   - bukkake.link
   - bullguard.com
@@ -5989,6 +5994,11 @@ domain_suffix_set:
   - callbackkiller.com
   - callersbane.com
   - callhulu.com
+  - callofduty.com
+  - callofdutyendowment.com
+  - callofdutyendowment.org
+  - callofdutyleague.com
+  - callofdutymobile.com
   - calls.ac.uk
   - callywith.ac.uk
   - caltech.edu
@@ -6073,6 +6083,7 @@ domain_suffix_set:
   - candi.ac.uk
   - candidforum-videos.com
   - cando.ac.uk
+  - candycrush.com
   - candycumcity.com
   - candypleasure.com
   - cannington.ac.uk
@@ -7675,6 +7686,7 @@ domain_suffix_set:
   - cranfield.ac.uk
   - crankplayer.com
   - crash.ac.uk
+  - crashbandicoot.com
   - crates.io
   - craven-college.ac.uk
   - crawley-college.ac.uk
@@ -8483,6 +8495,7 @@ domain_suffix_set:
   - democracy.earth
   - democrats.org
   - demonoid.is
+  - demonware.net
   - demoprint.com
   - demos.ac.uk
   - demosisto.hk
@@ -8632,7 +8645,9 @@ domain_suffix_set:
   - dhi.ac.uk
   - dhlestudio.com.co
   - diabetes-healthnet.ac.uk
+  - diablo.com
   - diablo3.com
+  - diablo4.com
   - diabloimmortal.com
   - diabrowser.com
   - diabrowser.engineering
@@ -10610,6 +10625,7 @@ domain_suffix_set:
   - europeansustainabledesign.net
   - europeansustainabledesigncouncil.com
   - europeansustainabledesigncouncil.net
+  - europeanwarzoneseries.com
   - europepmc.org
   - europeunit.ac.uk
   - europornstar.com
@@ -14492,6 +14508,7 @@ domain_suffix_set:
   - highfieldscentre.ac.uk
   - highlands-jersey.ac.uk
   - highlands.ac.uk
+  - highmoonstudios.com
   - highpeak.ac.uk
   - highpeakspureearth.com
   - highporn.net
@@ -15949,6 +15966,7 @@ domain_suffix_set:
   - inf.news
   - infinitetoons.com
   - infinitetube.com
+  - infinityward.com
   - influencersgonewild.com
   - info-graf.fr
   - infocert.digital
@@ -17625,6 +17643,7 @@ domain_suffix_set:
   - kindteenporn.com
   - kinescopecdn.net
   - king.ac.uk
+  - king.com
   - kingalfreds.ac.uk
   - kingalfredsbasingstoke.ac.uk
   - kingcomix.com
@@ -21004,6 +21023,7 @@ domain_suffix_set:
   - mynetav.org
   - mynetname.net
   - mynike.com
+  - mynixos.com
   - mynumber.org
   - myoctocat.com
   - myparagliding.com
@@ -22012,7 +22032,15 @@ domain_suffix_set:
   - nivod.tv
   - nivodi.tv
   - nivodz.com
+  - nix-community.org
+  - nix.dev
+  - nix.store
+  - nixcon.org
+  - nixcon2017.org
+  - nixlang.com
   - nixos.org
+  - nixos.wiki
+  - nixpkgs.org
   - niziero.info
   - njactb.org
   - njav.tv
@@ -25265,6 +25293,7 @@ domain_suffix_set:
   - ravemedia.ac.uk
   - ravensbourne.ac.uk
   - ravensbourneuniversitylondon.ac.uk
+  - ravensoftware.com
   - ravm.tv
   - rawgit.com
   - rawgithub.com
@@ -26655,6 +26684,7 @@ domain_suffix_set:
   - sejie.com
   - sejie80.com
   - sekai.colorfulpalette.org
+  - sekirothegame.com
   - seksmet.nl
   - sekswebsite.nl
   - sekur1213.guru
@@ -27246,6 +27276,7 @@ domain_suffix_set:
   - sie.ac.uk
   - siege-amazon.com
   - sierrafriendsoftibet.org
+  - sierragames.com
   - sifa.ac.uk
   - sigcomm.org
   - sigma-cetl.ac.uk
@@ -27425,6 +27456,7 @@ domain_suffix_set:
   - skybet.com
   - skyking.com.tw
   - skykiwi.com
+  - skylanders.com
   - skymansion.net
   - skymatter.com
   - skynet.be
@@ -27477,6 +27509,7 @@ domain_suffix_set:
   - sleazydream.com
   - sleazyfork.org
   - sleazyneasy.com
+  - sledgehammergames.com
   - sleepandwakefulnessresearch.ac.uk
   - slg.ac.uk
   - slheng.com
@@ -27699,6 +27732,7 @@ domain_suffix_set:
   - solidaritetibet.org
   - solidfiles.com
   - solidifi.app
+  - solidstate.com
   - solihull.ac.uk
   - solihullsfc.ac.uk
   - solostudioksale.com
@@ -28059,6 +28093,7 @@ domain_suffix_set:
   - sputnikmediabank.com
   - sputniknews.com
   - spyjinx.com
+  - spyrothedragon.com
   - sqhwesternconsortium.ac.uk
   - sqlite.org
   - sqlserveronlinux.com
@@ -29886,6 +29921,8 @@ domain_suffix_set:
   - tongil.or.kr
   - tonicmovies.com
   - tono-oka.jp
+  - tonyhawk.com
+  - tonyhawkthegame.com
   - tonyyan.net
   - toodoc.com
   - toolforge.org
@@ -30086,6 +30123,7 @@ domain_suffix_set:
   - trendsmap.com
   - trendyporn.com
   - tresham.ac.uk
+  - treyarch.com
   - trezor.io
   - tri-london.ac.uk
   - trialofccp.org
@@ -33007,6 +33045,7 @@ domain_suffix_set:
   - worldpornvideos.com
   - worldsecureemail.com
   - worldsecuresystems.com
+  - worldseriesofwarzone.com
   - worldsex.com
   - worldsfastestgamer.net
   - worldvpn.net
@@ -34010,6 +34049,7 @@ domain_suffix_set:
   - yandex.eu
   - yandex.fi
   - yandex.fr
+  - yandex.it
   - yandex.jobs
   - yandex.kg
   - yandex.kz

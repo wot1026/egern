@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoIP_All_No_Resolve_DNS
-# 规则统计: 111312
+# 规则统计: 111319
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -2723,6 +2723,7 @@ domain_suffix_set:
   - 194nb.com
   - 195155.com
   - 195268032591463.icu
+  - 1958xy.com
   - 195idc.com
   - 196b7adb23969e39.com
   - 196g.com
@@ -4334,6 +4335,7 @@ domain_suffix_set:
   - 36kr.net
   - 36krcdn.com
   - 36krcnd.com
+  - 36linkr.com
   - 36pnes36t0qs.com
   - 36qp.com
   - 36rv3j3.shop
@@ -14126,7 +14128,6 @@ domain_suffix_set:
   - bamboofactorychina.com
   - bambooolab.com
   - bambu-lab.com
-  - bambulab.com
   - bamengame.com
   - bamensq.com
   - bamenzhushou.com
@@ -16668,6 +16669,7 @@ domain_suffix_set:
   - bktencent.com
   - bktsj.com
   - bkweek.com
+  - bkzhibo.com
   - bkzzy.com
   - bl.com
   - bl0757.com
@@ -52987,6 +52989,7 @@ domain_suffix_set:
   - jgsemicon.com
   - jgstour.com
   - jgsxfw.com
+  - jgtab.link
   - jgtc315.com
   - jguanjia.com
   - jgums.com
@@ -54731,6 +54734,7 @@ domain_suffix_set:
   - jkyule.com
   - jkzhilu.com
   - jkzl.com
+  - jkzlrs.com
   - jkzn365.com
   - jl-er.com
   - jl-jssk.com
@@ -56379,6 +56383,7 @@ domain_suffix_set:
   - juwanhezi.com
   - juwanshe.com
   - juweixin.com
+  - juwinmedia.com
   - juwuxian.com
   - juxia.com
   - juxian.com
@@ -85584,6 +85589,7 @@ domain_suffix_set:
   - sxyj.net
   - sxyqgs.asia
   - sxyyc.net
+  - sxyygh.com
   - sxzhaobiao.com
   - sxzhongfei.com
   - sxzhyy.com
@@ -98077,6 +98083,7 @@ domain_suffix_set:
   - xhscdn.net
   - xhsd.com
   - xhsd.net
+  - xhsdzd.com
   - xhsf.com
   - xhslink.com
   - xhslw.com
