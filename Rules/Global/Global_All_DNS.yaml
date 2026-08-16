@@ -1,5 +1,5 @@
 # 规则名称: Global_All_DNS
-# 规则统计: 34883
+# 规则统计: 34886
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -25979,6 +25979,7 @@ domain_suffix_set:
   - rse.ac.uk
   - rsf-chinese.org
   - rsf.org
+  - rsg.ms
   - rsg.sc
   - rsgamen.org
   - rshb.ru
@@ -26411,6 +26412,8 @@ domain_suffix_set:
   - sbux.com.my
   - sbuxcard.com
   - sc-cdn.net
+  - sc-gw.com
+  - sc-static.net
   - sc-toolkit.ac.uk
   - sc.com
   - sc1.ac.uk
