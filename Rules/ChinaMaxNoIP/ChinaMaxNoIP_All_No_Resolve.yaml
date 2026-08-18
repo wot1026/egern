@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoIP_All_No_Resolve
-# 规则统计: 111380
+# 规则统计: 111381
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -74275,6 +74275,7 @@ domain_suffix_set:
   - qianwa.com
   - qianwanku.com
   - qianwen.com
+  - qianwenai.com
   - qianxiangbank.com
   - qianxibj.net
   - qianximiye.com

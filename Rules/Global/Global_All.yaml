@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35048
+# 规则统计: 35049
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -26134,6 +26134,7 @@ domain_suffix_set:
   - rutracker.net
   - rutracker.nl
   - rutracker.org
+  - rutracker.wiki
   - rutrecker.net
   - rutube.ru
   - rutube.sport

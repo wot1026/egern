@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All
-# 规则统计: 111354
+# 规则统计: 111355
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -74246,6 +74246,7 @@ domain_suffix_set:
   - qianwa.com
   - qianwanku.com
   - qianwen.com
+  - qianwenai.com
   - qianxiangbank.com
   - qianxibj.net
   - qianximiye.com
