@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35049
+# 规则统计: 35050
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -22118,6 +22118,7 @@ domain_suffix_set:
   - noodlevpn.com
   - noosferabank.ru
   - norbulingka.org
+  - nordcdn.com
   - nordstrom.com
   - nordstromimage.com
   - nordstrommedia.com
