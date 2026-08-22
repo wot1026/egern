@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_No_Resolve
-# 规则统计: 6900
+# 规则统计: 6901
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -4141,6 +4141,7 @@ domain_suffix_set:
   - okpool.me
   - okx.com
   - old-cat.net
+  - oldmapsonline.org
   - olehdtv.com
   - olelive.com
   - olevod.com

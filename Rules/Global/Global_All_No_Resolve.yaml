@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve
-# 规则统计: 35050
+# 规则统计: 35060
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -619,6 +619,7 @@ domain_suffix_set:
   - 5aimiku.com
   - 5axis-machining.com
   - 5beatsbydre.com
+  - 5ch.io
   - 5ch.net
   - 5fang.cc
   - 5i01.com
@@ -2041,6 +2042,7 @@ domain_suffix_set:
   - amazonvideo.cc
   - amazonvideo.com
   - amazonvideodirect.com
+  - amazonwebservices.com
   - amazonworkdocs.com
   - ambs.ac.uk
   - amc.com
@@ -9256,6 +9258,7 @@ domain_suffix_set:
   - dreamamateurs.com
   - dreambmw.ca
   - dreamforce.com
+  - dreamgen.com
   - dreammovies.com
   - dreamorder.com
   - dreamteamfc.com
@@ -11145,6 +11148,7 @@ domain_suffix_set:
   - fans17.com
   - fans66.tw
   - fansking.tw
+  - fansly.com
   - fansnudes.com
   - fansone.co
   - fanspot.jp
@@ -21787,6 +21791,8 @@ domain_suffix_set:
   - nicis.ac.uk
   - nickscipio.com
   - nicky.xxx
+  - nico.ms
+  - nicochannel.jp
   - nicodic.jp
   - nicolepeters.com
   - nicomanga.jp
@@ -22165,6 +22171,7 @@ domain_suffix_set:
   - norton.com
   - norwichresearchpark.ac.uk
   - nos.nl
+  - notegpt.io
   - notepad-plus-plus.org
   - noticias-rt.com
   - notimundo.press
@@ -22192,6 +22199,7 @@ domain_suffix_set:
   - nottm-coll.ac.uk
   - nottsmaternity.ac.uk
   - novafile.com
+  - novelai.net
   - novelasia.com
   - novella.ac.uk
   - noveltrove.com
@@ -22749,6 +22757,7 @@ domain_suffix_set:
   - oldham.ac.uk
   - oldhornymilfs.com
   - oldje.com
+  - oldmapsonline.org
   - oldroyd.ac.uk
   - olds.ac.uk
   - oldvic.ac.uk
@@ -28993,6 +29002,7 @@ domain_suffix_set:
   - talentlens.com
   - taleofthenight.com
   - talk853.com
+  - talkai.info
   - talkatone.com
   - talkboxapp.com
   - talkcc.com
