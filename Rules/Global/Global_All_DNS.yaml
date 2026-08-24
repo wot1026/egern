@@ -1,5 +1,5 @@
 # 规则名称: Global_All_DNS
-# 规则统计: 34898
+# 规则统计: 34902
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -5483,6 +5483,7 @@ domain_suffix_set:
   - brewmp.com
   - briantreepayments.net
   - briantreepayments.tv
+  - briarproject.org
   - bricoltech.ac.uk
   - bridgce.ac.uk
   - bridge-studio.co.uk
@@ -14555,6 +14556,7 @@ domain_suffix_set:
   - historicbooks.ac.uk
   - history-uk.ac.uk
   - history.ac.uk
+  - historylines.net
   - historyofdota.com
   - historyofdota.net
   - historyofdota.org
@@ -17709,6 +17711,7 @@ domain_suffix_set:
   - kiwi.jp
   - kiwi.kz
   - kiwibrowser.com
+  - kiwix.org
   - kiyobank.co.jp
   - kk-whys.co.jp
   - kk.stream
@@ -19429,6 +19432,7 @@ domain_suffix_set:
   - mcdonaldsarabia.com
   - mcdonaldsparties.co.nz
   - mcdonaldsparties.com.au
+  - mceindex.com
   - mcfog.com
   - mcisco.com
   - mcls.ac.uk

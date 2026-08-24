@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35060
+# 规则统计: 35064
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -5481,6 +5481,7 @@ domain_suffix_set:
   - brewmp.com
   - briantreepayments.net
   - briantreepayments.tv
+  - briarproject.org
   - bricoltech.ac.uk
   - bridgce.ac.uk
   - bridge-studio.co.uk
@@ -14553,6 +14554,7 @@ domain_suffix_set:
   - historicbooks.ac.uk
   - history-uk.ac.uk
   - history.ac.uk
+  - historylines.net
   - historyofdota.com
   - historyofdota.net
   - historyofdota.org
@@ -17707,6 +17709,7 @@ domain_suffix_set:
   - kiwi.jp
   - kiwi.kz
   - kiwibrowser.com
+  - kiwix.org
   - kiyobank.co.jp
   - kk-whys.co.jp
   - kk.stream
@@ -19427,6 +19430,7 @@ domain_suffix_set:
   - mcdonaldsarabia.com
   - mcdonaldsparties.co.nz
   - mcdonaldsparties.com.au
+  - mceindex.com
   - mcfog.com
   - mcisco.com
   - mcls.ac.uk

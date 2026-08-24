@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_DNS
-# 规则统计: 6796
+# 规则统计: 6802
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -799,6 +799,7 @@ domain_suffix_set:
   - breaking911.com
   - breakingtweets.com
   - breakwall.net
+  - briarproject.org
   - briefdream.com
   - briian.com
   - brill.com
@@ -1016,6 +1017,7 @@ domain_suffix_set:
   - character.ai
   - chat.com
   - chat.openai.com
+  - chatgpt.site
   - chatnook.com
   - chatpdf.com
   - chaturbate.com
@@ -2593,6 +2595,7 @@ domain_suffix_set:
   - himemix.net
   - hindustantimes.com
   - hinet.net
+  - historylines.net
   - hitbtc.com
   - hitomi.la
   - hitun.io
@@ -3208,6 +3211,7 @@ domain_suffix_set:
   - kir.jp
   - kissjav.com
   - kiwi.kz
+  - kiwix.org
   - kk-whys.co.jp
   - kkbox.com
   - kknews.cc
@@ -3538,6 +3542,7 @@ domain_suffix_set:
   - mayimayi.com
   - mcadforums.com
   - mcaf.ee
+  - mceindex.com
   - mcfog.com
   - mcreasite.com
   - mcusercontent.com
@@ -4842,6 +4847,7 @@ domain_suffix_set:
   - savevid.com
   - say2.info
   - sb-cd.com
+  - sb.sb
   - sbme.me
   - sbs.com.au
   - sbti.unun.dev
