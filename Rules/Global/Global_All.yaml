@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35064
+# 规则统计: 35065
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -2334,6 +2334,7 @@ domain_suffix_set:
   - api.moomoobull.com
   - api.nebula-emby.com
   - api.news
+  - api.shuaiapi.com
   - apiary.io
   - apiauto.ru
   - apibay.org
@@ -14893,7 +14894,6 @@ domain_suffix_set:
   - hp-mns.com
   - hp-printing.com
   - hp-webplatform.com
-  - hp-ww.com
   - hp.company
   - hp.io
   - hp3d.com
@@ -33237,6 +33237,7 @@ domain_suffix_set:
   - x3guide.com
   - x3vid.com
   - x6av.com
+  - x86.fr
   - x99av.com
   - x9wang.com
   - xacmbq.xyz

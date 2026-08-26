@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_No_Resolve
-# 规则统计: 6907
+# 规则统计: 6909
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -396,6 +396,7 @@ domain_suffix_set:
   - api.mixpanel.com
   - api.moomoobull.com
   - api.proxlet.com
+  - api.shuaiapi.com
   - api.termius.com
   - apiary.io
   - apigee.com
@@ -6480,6 +6481,7 @@ domain_suffix_set:
   - x24hr.com
   - x365x.com
   - x3guide.com
+  - x86.fr
   - xanga.com
   - xbabe.com
   - xbookcn.com

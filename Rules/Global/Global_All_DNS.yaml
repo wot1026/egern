@@ -1,5 +1,5 @@
 # 规则名称: Global_All_DNS
-# 规则统计: 34902
+# 规则统计: 34903
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -2336,6 +2336,7 @@ domain_suffix_set:
   - api.moomoobull.com
   - api.nebula-emby.com
   - api.news
+  - api.shuaiapi.com
   - apiary.io
   - apiauto.ru
   - apibay.org
@@ -14895,7 +14896,6 @@ domain_suffix_set:
   - hp-mns.com
   - hp-printing.com
   - hp-webplatform.com
-  - hp-ww.com
   - hp.company
   - hp.io
   - hp3d.com
@@ -33239,6 +33239,7 @@ domain_suffix_set:
   - x3guide.com
   - x3vid.com
   - x6av.com
+  - x86.fr
   - x99av.com
   - x9wang.com
   - xacmbq.xyz
