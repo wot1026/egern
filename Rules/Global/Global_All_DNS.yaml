@@ -1,5 +1,5 @@
 # 规则名称: Global_All_DNS
-# 规则统计: 34903
+# 规则统计: 34907
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -1087,6 +1087,7 @@ domain_suffix_set:
   - adguard.io
   - adguard.org
   - adguardaccount.com
+  - adguardaccount.net
   - adguardcdn.com
   - adguardvpn.com
   - adhelpnews.com
@@ -13831,6 +13832,7 @@ domain_suffix_set:
   - h0930.com
   - h18ani1.vip
   - h1n1china.org
+  - h264.io
   - h2o.ai
   - h2porn.com
   - h528.com
@@ -23132,6 +23134,7 @@ domain_suffix_set:
   - oursteps.com.au
   - oursweb.net
   - ourtv.hk
+  - ouryahoo.com
   - oustudios.ac.uk
   - out-app-purchase.com
   - outbound.io
@@ -34036,6 +34039,7 @@ domain_suffix_set:
   - yahoodns.net
   - yahoofinance.com
   - yahoohealth.com
+  - yahooinc.com
   - yahoomusic.com
   - yahoosandbox.com
   - yahoosportsbook.com
