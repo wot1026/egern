@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All
-# 规则统计: 6909
+# 规则统计: 6910
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -6444,6 +6444,7 @@ domain_suffix_set:
   - wr.pvp.net
   - wrchina.org
   - wretch.cc
+  - write.as
   - writesonic.com
   - wsj.com
   - wsj.net

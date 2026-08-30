@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_No_Resolve
-# 规则统计: 6909
+# 规则统计: 6910
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -6445,6 +6445,7 @@ domain_suffix_set:
   - wr.pvp.net
   - wrchina.org
   - wretch.cc
+  - write.as
   - writesonic.com
   - wsj.com
   - wsj.net
