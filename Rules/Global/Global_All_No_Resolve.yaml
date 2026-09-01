@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve
-# 规则统计: 35073
+# 规则统计: 35074
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -12769,6 +12769,7 @@ domain_suffix_set:
   - getlantern.org
   - getmalus.com
   - getmdl.io
+  - getmonero.org
   - getnews.jp
   - getoutline.org
   - getpaint.net
