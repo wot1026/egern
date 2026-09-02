@@ -1,5 +1,5 @@
 # 规则名称: Global_All_DNS
-# 规则统计: 34912
+# 规则统计: 34919
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -4603,6 +4603,7 @@ domain_suffix_set:
   - blackburn.ac.uk
   - blackcountryandmarchesiot.ac.uk
   - blacked.com
+  - blackedraw.com
   - blackfridaydrebeatsnew.com
   - blackfridaydrebeatsshop.com
   - blackhomeporn.com
@@ -12526,6 +12527,8 @@ domain_suffix_set:
   - gate.cc
   - gate.com
   - gate.io
+  - gate.tv
+  - gateapi.io
   - gatecoin.com
   - gatedata.org
   - gateimg.com
@@ -19880,6 +19883,7 @@ domain_suffix_set:
   - milftube.pro
   - milftugs.com
   - milfvr.com
+  - milfy.com
   - milfzr.com
   - miliav.com
   - milkmanbook.com
@@ -27524,6 +27528,7 @@ domain_suffix_set:
   - slashine.onl
   - slavbank.ru
   - slavicstar.com
+  - slayed.com
   - slaytizle.com
   - slc.ac.uk
   - slc.tl
@@ -30401,6 +30406,7 @@ domain_suffix_set:
   - tusco.ru
   - tushy.com
   - tushycash.com
+  - tushyraw.com
   - tuta.com
   - tuta.io
   - tutamail.com
@@ -31820,6 +31826,7 @@ domain_suffix_set:
   - vivaxnxx.com
   - vivthomas.com
   - vixen.com
+  - vixengroup.com
   - vixvids.to
   - viznet.ac.uk
   - vizvaz.com
