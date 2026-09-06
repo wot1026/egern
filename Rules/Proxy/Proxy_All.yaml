@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All
-# 规则统计: 6912
+# 规则统计: 6914
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -1306,6 +1306,7 @@ domain_suffix_set:
   - csw.org.uk
   - ct.org.tw
   - ctao.org
+  - ctee.com.tw
   - ctfriend.net
   - ctinets.com
   - ctinews.com
@@ -3361,6 +3362,7 @@ domain_suffix_set:
   - linpie.com
   - linux.do
   - linux.org.hk
+  - linux.sb
   - linuxtoy.org
   - lionsroar.com
   - lipuman.com
