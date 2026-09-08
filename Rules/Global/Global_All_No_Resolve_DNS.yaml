@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 34920
+# 规则统计: 34926
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -177,6 +177,8 @@ domain_suffix_set:
   - 119474.xyz
   - 11jav.com
   - 123-hp.com
+  - 123av.com
+  - 123av.me
   - 123bin.cc
   - 123dapp.com
   - 123dappipad.com
@@ -25868,6 +25870,7 @@ domain_suffix_set:
   - roborecall.com
   - robotoffice.com
   - robustnessiskey.com
+  - roc-taiwan.org
   - rochdalesfc.ac.uk
   - rocket-inc.net
   - rocket.chat
@@ -25938,6 +25941,7 @@ domain_suffix_set:
   - roughebonysex.com
   - roughman.net
   - roundtable.ac.uk
+  - roushuwo.com
   - routerboard.com
   - routesintolanguages.ac.uk
   - routledgehandbooks.com
@@ -28993,6 +28997,7 @@ domain_suffix_set:
   - taiwancon.com
   - taiwandaily.net
   - taiwandc.org
+  - taiwanembassy.org
   - taiwanhot.net
   - taiwanjobs.gov.tw
   - taiwanjustice.com
@@ -33151,6 +33156,7 @@ domain_suffix_set:
   - wspcr.ac.uk
   - wtbn.org
   - wtc.ac.uk
+  - wtfpass.com
   - wtfpeople.com
   - wtmobile.com
   - wto.org
