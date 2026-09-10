@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve
-# 规则统计: 35088
+# 规则统计: 35089
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -22120,6 +22120,7 @@ domain_suffix_set:
   - nodereal.io
   - nodes.ac.uk
   - nodeseek.com
+  - nodeseek.org
   - nodesnoop.com
   - nodesource.com
   - nofile.io

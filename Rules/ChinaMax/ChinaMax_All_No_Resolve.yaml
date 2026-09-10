@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax_All_No_Resolve
-# 规则统计: 123851
+# 规则统计: 123852
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -105183,6 +105183,7 @@ domain_suffix_set:
   - yuanpanguoji.com
   - yuanqiao.net
   - yuanqiao.pw
+  - yuanqidesk.com
   - yuanqilt.com
   - yuanqingsh.com
   - yuanqisenlin.com

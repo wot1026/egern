@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All
-# 规则统计: 110995
+# 规则统计: 110996
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -104802,6 +104802,7 @@ domain_suffix_set:
   - yuanpanguoji.com
   - yuanqiao.net
   - yuanqiao.pw
+  - yuanqidesk.com
   - yuanqilt.com
   - yuanqingsh.com
   - yuanqisenlin.com
