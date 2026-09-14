@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_No_Resolve
-# 规则统计: 6923
+# 规则统计: 6924
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -4616,6 +4616,7 @@ domain_suffix_set:
   - qstatus.com
   - qtrac.eu
   - qtweeter.com
+  - quakemachinex.com
   - quannengshen.org
   - quantumbooter.net
   - quay.io

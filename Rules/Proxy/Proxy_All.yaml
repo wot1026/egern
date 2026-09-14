@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All
-# 规则统计: 6923
+# 规则统计: 6924
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -4615,6 +4615,7 @@ domain_suffix_set:
   - qstatus.com
   - qtrac.eu
   - qtweeter.com
+  - quakemachinex.com
   - quannengshen.org
   - quantumbooter.net
   - quay.io

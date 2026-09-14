@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35089
+# 规则统计: 35090
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -25086,6 +25086,7 @@ domain_suffix_set:
   - quadram.ac.uk
   - quadraminstitute.ac.uk
   - quadrat.ac.uk
+  - quakemachinex.com
   - qualcomm-email.com
   - qualcomm-inc.com
   - qualcomm.co.id
