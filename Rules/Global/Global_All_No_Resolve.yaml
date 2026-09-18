@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve
-# 规则统计: 35090
+# 规则统计: 35093
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -28559,6 +28559,9 @@ domain_suffix_set:
   - stripe-terminal-local-reader.net
   - stripe.ac.uk
   - stripe.com
+  - stripe.dev
+  - stripe.events
+  - stripe.global
   - stripe.network
   - stripecdn.com
   - stripparadise.com
