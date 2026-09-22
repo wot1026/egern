@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35093
+# 规则统计: 35098
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -7330,6 +7330,7 @@ domain_suffix_set:
   - code1984.com
   - codeberg.org
   - codeberg.page
+  - codebuff.com
   - codecademy.com
   - codeforaliving.io
   - codeforces.com
@@ -11561,12 +11562,14 @@ domain_suffix_set:
   - firearmsworld.net
   - firebase-settings.crashlytics.com
   - firebase.com
+  - firebase.dev
   - firebase.io
   - firebaseapp.com
   - firebaseio.com
   - firech.at
   - fireemblemawakening.com
   - fireflyresearch.ac.uk
+  - firefox-portal-detection.com
   - firefox.com
   - firefox.hu
   - firefoxtweetmachine.com
@@ -12047,6 +12050,7 @@ domain_suffix_set:
   - freebrowser.org
   - freebs.com
   - freebsd.org
+  - freebuff.com
   - freecamsfan.com
   - freecamstars.com
   - freecartoons.biz
@@ -29353,6 +29357,7 @@ domain_suffix_set:
   - textnow.me
   - texttobuy.org
   - texture.com
+  - tfbnw.net
   - tfc-taiwan.org.tw
   - tferwq.com
   - tfhub.dev

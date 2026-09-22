@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 34931
+# 规则统计: 34936
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -7332,6 +7332,7 @@ domain_suffix_set:
   - code1984.com
   - codeberg.org
   - codeberg.page
+  - codebuff.com
   - codecademy.com
   - codeforaliving.io
   - codeforces.com
@@ -11563,12 +11564,14 @@ domain_suffix_set:
   - firearmsworld.net
   - firebase-settings.crashlytics.com
   - firebase.com
+  - firebase.dev
   - firebase.io
   - firebaseapp.com
   - firebaseio.com
   - firech.at
   - fireemblemawakening.com
   - fireflyresearch.ac.uk
+  - firefox-portal-detection.com
   - firefox.com
   - firefox.hu
   - firefoxtweetmachine.com
@@ -12049,6 +12052,7 @@ domain_suffix_set:
   - freebrowser.org
   - freebs.com
   - freebsd.org
+  - freebuff.com
   - freecamsfan.com
   - freecamstars.com
   - freecartoons.biz
@@ -29355,6 +29359,7 @@ domain_suffix_set:
   - textnow.me
   - texttobuy.org
   - texture.com
+  - tfbnw.net
   - tfc-taiwan.org.tw
   - tferwq.com
   - tfhub.dev

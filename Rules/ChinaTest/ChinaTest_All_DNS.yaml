@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All_DNS
-# 规则统计: 110950
+# 规则统计: 110959
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -35000,6 +35000,7 @@ domain_suffix_set:
   - fnos.net
   - fnrcw.com
   - fnrczp.com
+  - fnrrc.com
   - fnsbqvz.com
   - fnscore.com
   - fnwlzz.com
@@ -38547,6 +38548,7 @@ domain_suffix_set:
   - gongkongsaas.com
   - gonglf.com
   - gonglve.net
+  - gongniukaiguan.net
   - gongnou.com
   - gongpin.net
   - gongpingjia.com
@@ -64103,6 +64105,7 @@ domain_suffix_set:
   - mdbchina.com
   - mdbimg.com
   - mdclub.org
+  - mddclass.com
   - mdddg.com
   - mddj.com
   - mddlsa.com
@@ -75217,6 +75220,7 @@ domain_suffix_set:
   - qudao168.com
   - qudaowuyou.com
   - qudayun.com
+  - qudian.com
   - qudingshui.com
   - qudong.com
   - qudong51.net
@@ -90731,6 +90735,7 @@ domain_suffix_set:
   - uboat100.com
   - uborn.net
   - uboxol.com
+  - uboxs.com
   - ubs001.com
   - ubssdic.com
   - ubtrobot.com
@@ -92841,6 +92846,7 @@ domain_suffix_set:
   - vx.com
   - vx56.com
   - vxe.com
+  - vxhcm.com
   - vxia.net
   - vxiaocheng.com
   - vxinyou.com
@@ -103983,6 +103989,7 @@ domain_suffix_set:
   - youbangyun.com
   - youbbs.org
   - youbian.com
+  - youbianku.com
   - youbibi.com
   - youbike.me
   - youbikecn.com
@@ -108084,6 +108091,7 @@ domain_suffix_set:
   - zhonglianhuashu.com
   - zhonglianhuaxin.com
   - zhonglianyx.com
+  - zhongliujie.com
   - zhongliusp.com
   - zhongliuyiyuan.com
   - zhonglue-consulting.com
@@ -110299,6 +110307,7 @@ domain_suffix_set:
   - zuixu.com
   - zuiyanke.com
   - zuiyou.com
+  - zuiyou.tv
   - zuiyouxi.com
   - zuizhifu.com
   - zuji360.com

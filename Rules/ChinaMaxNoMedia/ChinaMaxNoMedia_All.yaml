@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoMedia_All
-# 规则统计: 123425
+# 规则统计: 123432
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -34786,6 +34786,7 @@ domain_suffix_set:
   - fnos.net
   - fnrcw.com
   - fnrczp.com
+  - fnrrc.com
   - fnsbqvz.com
   - fnscore.com
   - fnwlzz.com
@@ -38626,6 +38627,7 @@ domain_suffix_set:
   - gongkongsaas.com
   - gonglf.com
   - gonglve.net
+  - gongniukaiguan.net
   - gongnou.com
   - gongpin.net
   - gongpingjia.com
@@ -64098,6 +64100,7 @@ domain_suffix_set:
   - mdbchina.com
   - mdbimg.com
   - mdclub.org
+  - mddclass.com
   - mdddg.com
   - mddj.com
   - mddlsa.com
@@ -75207,6 +75210,7 @@ domain_suffix_set:
   - qudao168.com
   - qudaowuyou.com
   - qudayun.com
+  - qudian.com
   - qudingshui.com
   - qudong.com
   - qudong51.net
@@ -90727,6 +90731,7 @@ domain_suffix_set:
   - uboat100.com
   - uborn.net
   - uboxol.com
+  - uboxs.com
   - ubs001.com
   - ubssdic.com
   - ubtrobot.com
@@ -92829,6 +92834,7 @@ domain_suffix_set:
   - vx.com
   - vx56.com
   - vxe.com
+  - vxhcm.com
   - vxia.net
   - vxiaocheng.com
   - vxinyou.com
@@ -103933,6 +103939,7 @@ domain_suffix_set:
   - youbangyun.com
   - youbbs.org
   - youbian.com
+  - youbianku.com
   - youbibi.com
   - youbike.me
   - youbikecn.com
@@ -108040,6 +108047,7 @@ domain_suffix_set:
   - zhonglianhuashu.com
   - zhonglianhuaxin.com
   - zhonglianyx.com
+  - zhongliujie.com
   - zhongliusp.com
   - zhongliuyiyuan.com
   - zhonglue-consulting.com
@@ -110244,6 +110252,7 @@ domain_suffix_set:
   - zuixu.com
   - zuiyanke.com
   - zuiyou.com
+  - zuiyou.tv
   - zuiyouxi.com
   - zuizhifu.com
   - zuji360.com
@@ -113132,7 +113141,7 @@ ip_cidr6_set:
   - 2406:840:80::/41
   - 2406:840:810::/44
   - 2406:840:820::/43
-  - 2406:840:840::/48
+  - 2406:840:840::/47
   - 2406:840:843::/48
   - 2406:840:844::/46
   - 2406:840:848::/45
@@ -113150,10 +113159,7 @@ ip_cidr6_set:
   - 2406:840:8c0::/42
   - 2406:840:9000::/37
   - 2406:840:900::/40
-  - 2406:840:9800::/42
-  - 2406:840:9850::/44
-  - 2406:840:9860::/43
-  - 2406:840:9880::/41
+  - 2406:840:9800::/40
   - 2406:840:9900::/41
   - 2406:840:9981::/48
   - 2406:840:9982::/47
@@ -118816,6 +118822,7 @@ ip_cidr_set:
   - 154.72.47.0/24
   - 154.8.128.0/17
   - 154.8.48.0/20
+  - 154.84.180.0/24
   - 154.89.32.0/20
   - 155.102.0.0/16
   - 155.126.176.0/23
@@ -123280,7 +123287,7 @@ ip_cidr_set:
   - 64.235.227.160/29
   - 64.235.230.152/30
   - 64.71.138.0/25
-  - 64.96.4.0/24
+  - 64.96.4.0/23
   - 65.111.0.0/19
   - 65.55.60.184/30
   - 65.97.55.248/29
