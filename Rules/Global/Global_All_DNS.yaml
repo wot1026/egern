@@ -1,5 +1,5 @@
 # 规则名称: Global_All_DNS
-# 规则统计: 34936
+# 规则统计: 34938
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -6879,6 +6879,7 @@ domain_suffix_set:
   - chinesen.de
   - chinesenews.net.au
   - chinesepen.org
+  - chineseposters.net
   - chineseradioseattle.com
   - chinesespanking.com
   - chinesetalks.net
@@ -22192,6 +22193,7 @@ domain_suffix_set:
   - norton.com
   - norwichresearchpark.ac.uk
   - nos.nl
+  - note.com
   - notegpt.io
   - notepad-plus-plus.org
   - noticias-rt.com

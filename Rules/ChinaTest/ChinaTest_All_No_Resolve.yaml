@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All_No_Resolve
-# 规则统计: 111005
+# 规则统计: 111006
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -82386,6 +82386,7 @@ domain_suffix_set:
   - sjf029.com
   - sjfcdn.com
   - sjfh168.com
+  - sjfls6.com
   - sjfpro.com
   - sjfzxm.com
   - sjg8.com

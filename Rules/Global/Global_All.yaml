@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35098
+# 规则统计: 35100
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -6877,6 +6877,7 @@ domain_suffix_set:
   - chinesen.de
   - chinesenews.net.au
   - chinesepen.org
+  - chineseposters.net
   - chineseradioseattle.com
   - chinesespanking.com
   - chinesetalks.net
@@ -22190,6 +22191,7 @@ domain_suffix_set:
   - norton.com
   - norwichresearchpark.ac.uk
   - nos.nl
+  - note.com
   - notegpt.io
   - notepad-plus-plus.org
   - noticias-rt.com

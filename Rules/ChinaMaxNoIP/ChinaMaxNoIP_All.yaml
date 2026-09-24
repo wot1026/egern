@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoIP_All
-# 规则统计: 111075
+# 规则统计: 111076
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -82485,6 +82485,7 @@ domain_suffix_set:
   - sjf029.com
   - sjfcdn.com
   - sjfh168.com
+  - sjfls6.com
   - sjfpro.com
   - sjfzxm.com
   - sjg8.com
