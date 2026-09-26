@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35100
+# 规则统计: 35099
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -18301,7 +18301,6 @@ domain_suffix_set:
   - likee.com
   - likeeapp.ru
   - likeevideo.com
-  - likeevideo.ru
   - likeseiyu.com
   - liketruyen.net
   - liketwice.com

@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve
-# 规则统计: 35100
+# 规则统计: 35099
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -18302,7 +18302,6 @@ domain_suffix_set:
   - likee.com
   - likeeapp.ru
   - likeevideo.com
-  - likeevideo.ru
   - likeseiyu.com
   - liketruyen.net
   - liketwice.com
