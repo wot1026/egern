@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_DNS
-# 规则统计: 6821
+# 规则统计: 6824
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -879,6 +879,7 @@ domain_suffix_set:
   - c-span.org
   - c-spanvideo.org
   - c.gle
+  - c.go-mpulse.net
   - c.mi.com
   - c100tibet.org
   - c2cx.com
@@ -4613,6 +4614,7 @@ domain_suffix_set:
   - qiwen.lu
   - qkshare.com
   - qmp4.com
+  - qobuz.com
   - qoos.com
   - qpoe.com
   - qq.co.za
@@ -6095,6 +6097,7 @@ domain_suffix_set:
   - vansky.com
   - vaticannews.va
   - vatn.org
+  - vava8.com
   - vbstatic.co
   - vcf-online.org
   - vcfbuilder.org

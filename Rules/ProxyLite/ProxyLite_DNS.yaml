@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite_DNS
-# 规则统计: 886
+# 规则统计: 892
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -20,6 +20,7 @@ domain_set:
   - cdp.cloud.unity3d.com
   - clubhouse.pubnubapi.com
   - copilot.microsoft.com
+  - github-api.arkoselabs.com
   - lab.skk.moe
   - location.microsoft.com
   - login.microsoftonline.com
@@ -294,6 +295,9 @@ domain_suffix_set:
   - ghostnoteapp.com
   - gitbook.com
   - githack.com
+  - github.ai
+  - github.career
+  - githubsupport.com
   - gitlab.com
   - gitlab.io
   - globalsign.com
@@ -304,6 +308,8 @@ domain_suffix_set:
   - gongm.in
   - goodreaders.com
   - goodreads.com
+  - google
+  - googlezip.net
   - gosetsuden.jp
   - graphql.org
   - gravatar.com
