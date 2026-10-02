@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All
-# 规则统计: 6932
+# 规则统计: 6934
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -2172,6 +2172,7 @@ domain_suffix_set:
   - fututrustee.com
   - fux.com
   - fuyin.net
+  - fuyin116.com
   - fuyindiantai.org
   - fuyu.org.tw
   - fw.cm
@@ -3789,6 +3790,7 @@ domain_suffix_set:
   - mummysgold.com
   - murmur.tw
   - muscdn.com
+  - muse.ai
   - musicade.net
   - musical.ly
   - musixmatch.com

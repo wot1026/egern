@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 34939
+# 规则统计: 34944
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -12395,6 +12395,7 @@ domain_suffix_set:
   - fux.com
   - fuxporn.com
   - fuyin.net
+  - fuyin116.com
   - fuyindiantai.org
   - fuyu.org.tw
   - fuzokudx.com
@@ -15165,6 +15166,7 @@ domain_suffix_set:
   - huaren4us.com
   - huarenav.com
   - huarenporn.com
+  - huarun.win
   - huashangnews.com
   - huashundg.com
   - huasing.org
@@ -19636,6 +19638,7 @@ domain_suffix_set:
   - met-nude.com
   - meta.ai
   - meta.com
+  - metaaivm.com
   - metabolomics.ac.uk
   - metabora.io
   - metabrainz.org
@@ -20828,6 +20831,7 @@ domain_suffix_set:
   - muscache.com
   - muscdn.com
   - musclegirlflix.com
+  - muse.ai
   - museumofwriting.ac.uk
   - museumwales.ac.uk
   - mushroomtrack.com
@@ -22956,6 +22960,7 @@ domain_suffix_set:
   - openbook.org.tw
   - opencas.io
   - openclaw.ai
+  - opencode.ai
   - opencollective.com
   - opencreate.org
   - opencritic.com
