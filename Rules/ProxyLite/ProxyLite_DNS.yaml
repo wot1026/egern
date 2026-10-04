@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite_DNS
-# 规则统计: 892
+# 规则统计: 894
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -804,6 +804,7 @@ domain_suffix_set:
   - whoer.net
   - wikibooks.org
   - wikidata.org
+  - wikifunctions.org
   - wikileaks-forum.com
   - wikileaks.info
   - wikileaks.org
@@ -815,6 +816,7 @@ domain_suffix_set:
   - wikipedia.org
   - wikiquote.org
   - wikisource.org
+  - wikispecies.org
   - wikiversity.org
   - wikivoyage.org
   - wikiwand.com

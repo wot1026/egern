@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_No_Resolve
-# 规则统计: 6934
+# 规则统计: 6938
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -6253,6 +6253,7 @@ domain_suffix_set:
   - waiwaier.com
   - walletconnect.com
   - walletconnect.org
+  - wallhaven.cc
   - wallmama.com
   - wallornot.org
   - wallpapercasa.com
@@ -6374,6 +6375,7 @@ domain_suffix_set:
   - wikia.com
   - wikibooks.org
   - wikidata.org
+  - wikifunctions.org
   - wikileaks-forum.com
   - wikileaks.ch
   - wikileaks.com
@@ -6386,12 +6388,14 @@ domain_suffix_set:
   - wikilivres.info
   - wikimapia.org
   - wikimedia.org
+  - wikimediafoundation.org
   - wikinews.org
   - wikipedia.com
   - wikipedia.org
   - wikiquote.org
   - wikis.tw
   - wikisource.org
+  - wikispecies.org
   - wikiunblocked.org
   - wikiversity.org
   - wikivoyage.org

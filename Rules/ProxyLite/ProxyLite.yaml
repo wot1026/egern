@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite
-# 规则统计: 991
+# 规则统计: 993
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -803,6 +803,7 @@ domain_suffix_set:
   - whoer.net
   - wikibooks.org
   - wikidata.org
+  - wikifunctions.org
   - wikileaks-forum.com
   - wikileaks.info
   - wikileaks.org
@@ -814,6 +815,7 @@ domain_suffix_set:
   - wikipedia.org
   - wikiquote.org
   - wikisource.org
+  - wikispecies.org
   - wikiversity.org
   - wikivoyage.org
   - wikiwand.com

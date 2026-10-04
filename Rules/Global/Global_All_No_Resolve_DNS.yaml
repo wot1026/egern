@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 34944
+# 规则统计: 34947
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -7125,6 +7125,7 @@ domain_suffix_set:
   - clau.de
   - claude.ai
   - claude.com
+  - claude.dev
   - claudemcpclient.com
   - claudemcpcontent.com
   - claudeusercontent.com
@@ -32824,6 +32825,7 @@ domain_suffix_set:
   - wikidata.org
   - wikidot.com
   - wikifeet.com
+  - wikifunctions.org
   - wikihow.com
   - wikileaks-forum.com
   - wikileaks.ch
@@ -32847,6 +32849,7 @@ domain_suffix_set:
   - wikis.tw
   - wikisexguide.com
   - wikisource.org
+  - wikispecies.org
   - wikiunblocked.org
   - wikiversity.org
   - wikivoyage.org

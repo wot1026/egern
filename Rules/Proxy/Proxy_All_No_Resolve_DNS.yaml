@@ -1,5 +1,5 @@
 # 规则名称: Proxy_All_No_Resolve_DNS
-# 规则统计: 6826
+# 规则统计: 6830
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -6254,6 +6254,7 @@ domain_suffix_set:
   - waiwaier.com
   - walletconnect.com
   - walletconnect.org
+  - wallhaven.cc
   - wallmama.com
   - wallornot.org
   - wallpapercasa.com
@@ -6375,6 +6376,7 @@ domain_suffix_set:
   - wikia.com
   - wikibooks.org
   - wikidata.org
+  - wikifunctions.org
   - wikileaks-forum.com
   - wikileaks.ch
   - wikileaks.com
@@ -6387,12 +6389,14 @@ domain_suffix_set:
   - wikilivres.info
   - wikimapia.org
   - wikimedia.org
+  - wikimediafoundation.org
   - wikinews.org
   - wikipedia.com
   - wikipedia.org
   - wikiquote.org
   - wikis.tw
   - wikisource.org
+  - wikispecies.org
   - wikiunblocked.org
   - wikiversity.org
   - wikivoyage.org
