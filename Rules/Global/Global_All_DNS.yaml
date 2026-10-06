@@ -1,5 +1,5 @@
 # 规则名称: Global_All_DNS
-# 规则统计: 34947
+# 规则统计: 34948
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -13512,6 +13512,7 @@ domain_suffix_set:
   - googlepagecreator.com
   - googlephotos.com
   - googleplay.com
+  - googleplaycensorship.com
   - googleplex.com
   - googleplus.com
   - googlescholar.com

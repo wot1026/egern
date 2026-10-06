@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve
-# 规则统计: 35112
+# 规则统计: 35113
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -13511,6 +13511,7 @@ domain_suffix_set:
   - googlepagecreator.com
   - googlephotos.com
   - googleplay.com
+  - googleplaycensorship.com
   - googleplex.com
   - googleplus.com
   - googlescholar.com
