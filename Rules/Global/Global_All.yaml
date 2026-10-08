@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35113
+# 规则统计: 35140
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -1430,6 +1430,7 @@ domain_suffix_set:
   - aib.ac.uk
   - aibaobei.me
   - aicoin.com
+  - aidc.com.tw
   - aihub.top
   - aim25.ac.uk
   - aimei133.com
@@ -4799,6 +4800,7 @@ domain_suffix_set:
   - blpprofessional.com
   - blubank.com
   - blubrry.com
+  - blue-plus.net
   - blueangellive.com
   - bluearchive.jp
   - bluefootcms.com
@@ -6096,6 +6098,7 @@ domain_suffix_set:
   - candycrush.com
   - candycumcity.com
   - candypleasure.com
+  - cangku.moe
   - cannington.ac.uk
   - cannock.ac.uk
   - canny.io
@@ -7675,6 +7678,7 @@ domain_suffix_set:
   - cp44.net
   - cpan.org
   - cpc.ac.uk
+  - cpc.com.tw
   - cpd25.ac.uk
   - cpd4phd.ac.uk
   - cpdnoticeboard.ac.uk
@@ -7826,6 +7830,7 @@ domain_suffix_set:
   - cs4hs.com
   - csakporno.hu
   - csc.ac.uk
+  - csc.com.tw
   - cscd.ac.uk
   - csct.ac.uk
   - cscuk.ac.uk
@@ -8651,6 +8656,7 @@ domain_suffix_set:
   - dgg.gg
   - dghe.ac.uk
   - dgwav.com
+  - dh.net
   - dh44.lol
   - dharamsalanet.com
   - dharmakara.net
@@ -10702,6 +10708,7 @@ domain_suffix_set:
   - exgfvideos.xxx
   - exgirlfriendmarket.com
   - exhentai.org
+  - eximbank.com.tw
   - exiporn.com
   - exmo.com
   - exmormon.org
@@ -13930,7 +13937,9 @@ domain_suffix_set:
   - hanime.tv
   - hanime.xxx
   - hanime.xyz
+  - hanime1.com
   - hanime1.me
+  - hanimeone.me
   - hanminzu.org
   - hannah.ac.uk
   - hanr-bao.mom
@@ -15434,6 +15443,7 @@ domain_suffix_set:
   - icca.ac.uk
   - iccf.com
   - iccliverpool.ac.uk
+  - icdf.org.tw
   - ice-cse.ac.uk
   - iced.ac.uk
   - icedrive.net
@@ -16415,6 +16425,7 @@ domain_suffix_set:
   - ip.sb
   - ip73.com
   - ipa-iphone.net
+  - ipac.global
   - ipad.co.kr
   - ipad.de
   - ipad.host
@@ -16882,6 +16893,7 @@ domain_suffix_set:
   - javcc.cc
   - javcc.com
   - javcdn.cc
+  - javchu.com
   - javcl.com
   - javct.net
   - javcup.com
@@ -17605,6 +17617,7 @@ domain_suffix_set:
   - khanacademy.org
   - khangar.net
   - khatrimaza.org
+  - khc.edu.tw
   - khmusic.com.tw
   - khotruyentranhx.com
   - kiad.ac.uk
@@ -17943,6 +17956,7 @@ domain_suffix_set:
   - lancs-initiative.ac.uk
   - lancs.ac.uk
   - lancsngfl.ac.uk
+  - landbank.com.tw
   - landmap.ac.uk
   - landmarks.ac.uk
   - landofhope.tv
@@ -19332,6 +19346,7 @@ domain_suffix_set:
   - mathstore.ac.uk
   - mathsvideoclubs.ac.uk
   - mathtutor.ac.uk
+  - matichon.co.th
   - matome-plus.com
   - matome-plus.net
   - matrix.ac.uk
@@ -20215,6 +20230,7 @@ domain_suffix_set:
   - mirailab.tech
   - mirandaicq.com
   - mirandanet.ac.uk
+  - mirdc.org.tw
   - miroguide.com
   - mirror.ac.uk
   - mirror.xyz
@@ -20374,6 +20390,7 @@ domain_suffix_set:
   - moefuns.co
   - moegirl.org
   - moeimg.net
+  - moeli-desu.com
   - moemax.net
   - moepedia.net
   - moeshare.cc
@@ -21251,6 +21268,7 @@ domain_suffix_set:
   - nationalskillsacademy.ac.uk
   - nationaltechnicianscentre.ac.uk
   - nationsonline.org
+  - nationthailand.com
   - nationwide.com
   - nativeincolour.com.au
   - natmatsci.ac.uk
@@ -22313,6 +22331,7 @@ domain_suffix_set:
   - nss.ac.uk
   - nsstatic.net
   - nssurge.com
+  - nstc.org.tw
   - nsu.ac.uk
   - nsw.ac.uk
   - ntb.ac.uk
@@ -24182,6 +24201,7 @@ domain_suffix_set:
   - pokerstars.net
   - pokerstrategy.com
   - pol.ac.uk
+  - poland.tw
   - political-science.ac.uk
   - politicalchina.org
   - politicalconsultation.org
@@ -25899,6 +25919,7 @@ domain_suffix_set:
   - rockstargames.com
   - rockstarnorth.com
   - rockylinux.org
+  - rocmgov.org
   - roco.qq.com
   - rodbaston.ac.uk
   - roe.ac.uk
@@ -29368,6 +29389,7 @@ domain_suffix_set:
   - texture.com
   - tfbnw.net
   - tfc-taiwan.org.tw
+  - tfd.org.tw
   - tferwq.com
   - tfhub.dev
   - tfiflve.com
@@ -30309,6 +30331,7 @@ domain_suffix_set:
   - tte-lisa.ac.uk
   - tteshop.com
   - ttetraining.ac.uk
+  - ttl.com.tw
   - ttlivecdn.com
   - ttoverseaus.net
   - ttrb.ac.uk
@@ -30509,6 +30532,7 @@ domain_suffix_set:
   - twelve.today
   - twenty65.ac.uk
   - twerkingbutt.com
+  - twfhcsec.com.tw
   - twftp.org
   - twgov.tw
   - twgreatdaily.com
@@ -30626,6 +30650,7 @@ domain_suffix_set:
   - txvlog.com
   - txxx.com
   - txxx1.com
+  - tybio.com.tw
   - tycool.com
   - tyler-brown.com
   - tyms2022.com
@@ -32265,6 +32290,7 @@ domain_suffix_set:
   - vscale.blog
   - vscale.io
   - vscale.ru
+  - vscc.org.tw
   - vsco.co
   - vscode-cdn.net
   - vscode-unpkg.net
@@ -33767,6 +33793,7 @@ domain_suffix_set:
   - xvxxtube.com
   - xwbo.com
   - xx-map.com
+  - xx.net
   - xx9.app
   - xxbay.com
   - xxbb9.com
