@@ -1,5 +1,5 @@
 # 规则名称: Global_All
-# 规则统计: 35228
+# 规则统计: 35229
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -780,6 +780,7 @@ domain_suffix_set:
   - 91sesex.xyz
   - 91sew.xyz
   - 91sew40.buzz
+  - 91short.com
   - 91vhome.com
   - 91vps.club
   - 920share.com
