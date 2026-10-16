@@ -1,5 +1,5 @@
 # 规则名称: TikTok
-# 规则统计: 32
+# 规则统计: 35
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -13,6 +13,9 @@ domain_suffix_set:
   - byteintlapi.com
   - byteoversea.com
   - capcut.com
+  - capcutapi.com
+  - capcutapi.us
+  - capcutstatic.com
   - ibytedtos.com
   - ibyteimg.com
   - ipstatp.com
