@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All_No_Resolve
-# 规则统计: 110358
+# 规则统计: 110360
 # 来源: blackmatrix7/ios_rule_script
 
 no_resolve: true
@@ -85542,6 +85542,8 @@ domain_suffix_set:
   - szty56.com
   - sztz.org
   - sztzzs.com
+  - szu.app
+  - szu.moe
   - szuavia.org
   - szudad.com
   - szunionlab.com

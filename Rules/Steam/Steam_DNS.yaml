@@ -1,5 +1,5 @@
 # 规则名称: Steam_DNS
-# 规则统计: 54
+# 规则统计: 57
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -11,6 +11,7 @@ domain_suffix_set:
   - csgo.wmsj.cn
   - dl.steam.clngaa.com
   - dl.steam.ksyna.com
+  - dota2.com
   - dota2.wmsj.cn
   - edge.steam-dns.top.comcast.net
   - f3b7q2p3.ssl.hwcdn.net
@@ -36,6 +37,7 @@ domain_suffix_set:
   - steamcdn-a.akamaihd.net
   - steamcommunity-a.akamaihd.net
   - steamcommunity.com
+  - steamconnecttest.com
   - steamcontent.tnkjmec.com
   - steamdeck.com
   - steamgames.com
@@ -54,6 +56,7 @@ domain_suffix_set:
   - steamuserimages-a.akamaihd.net
   - steamvideo-a.akamaihd.net
   - underlords.com
+  - valve.net
   - valvesoftware.com
   - wmsjsteam.com
 domain_keyword_set:

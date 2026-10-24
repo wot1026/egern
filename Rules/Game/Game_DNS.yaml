@@ -1,5 +1,5 @@
 # 规则名称: Game_DNS
-# 规则统计: 551
+# 规则统计: 554
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -104,6 +104,7 @@ domain_suffix_set:
   - dl.steam.ksyna.com
   - dlmobilegarena-a.akamaihd.net
   - donkeykongcountryreturns.com
+  - dota2.com
   - dota2.wmsj.cn
   - dragonage.com
   - dragonagekeep.com
@@ -446,6 +447,7 @@ domain_suffix_set:
   - steamchina.com
   - steamcommunity-a.akamaihd.net
   - steamcommunity.com
+  - steamconnecttest.com
   - steamcontent.com
   - steamcontent.tnkjmec.com
   - steamdeck.com
@@ -508,6 +510,7 @@ domain_suffix_set:
   - uo.com
   - uoherald.com
   - uplay.com
+  - valve.net
   - valvesoftware.com
   - videos-rockstargames-com.akamaized.net
   - visceralgames.com

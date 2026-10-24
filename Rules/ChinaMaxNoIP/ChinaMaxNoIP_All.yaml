@@ -1,5 +1,5 @@
 # 规则名称: ChinaMaxNoIP_All
-# 规则统计: 110492
+# 规则统计: 110494
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -85688,6 +85688,8 @@ domain_suffix_set:
   - szty56.com
   - sztz.org
   - sztzzs.com
+  - szu.app
+  - szu.moe
   - szuavia.org
   - szudad.com
   - szunionlab.com

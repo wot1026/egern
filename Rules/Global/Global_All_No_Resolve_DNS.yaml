@@ -1,5 +1,5 @@
 # 规则名称: Global_All_No_Resolve_DNS
-# 规则统计: 35086
+# 规则统计: 35137
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -396,6 +396,7 @@ domain_suffix_set:
   - 233abc.com
   - 233v2.com
   - 2371tom.com
+  - 24.place
   - 24h.tv
   - 24hbook.com
   - 24hjav.com
@@ -2251,6 +2252,7 @@ domain_suffix_set:
   - ansarbank.com
   - ansin.erodayo.com
   - answering-islam.org
+  - ant.dev
   - antarctic.ac.uk
   - antarctica.ac.uk
   - antarvasnaclips.com
@@ -2262,6 +2264,7 @@ domain_suffix_set:
   - anthemthegame.com
   - anthonycalzadilla.com
   - anthropic.com
+  - anthropic.team
   - anthropology.ac.uk
   - anti1984.com
   - antichristendom.com
@@ -2273,6 +2276,7 @@ domain_suffix_set:
   - antislaverylaw.ac.uk
   - antiwave.net
   - antpool.com
+  - antspace.dev
   - anudetube.com
   - anuneko.com
   - anws.gov.tw
@@ -3329,8 +3333,10 @@ domain_suffix_set:
   - avinin.com
   - avira.com
   - avistaz.to
+  - avito.com
   - avito.ru
   - avito.st
+  - avito.tech
   - avizoon.site
   - avizoone.com
   - avjb.com
@@ -4667,6 +4673,8 @@ domain_suffix_set:
   - blob.core.windows.net
   - blockcast.it
   - blockchain.com
+  - blockchair.com
+  - blockchair.net
   - blockcn.com
   - blockedbyhk.com
   - blockfrost.io
@@ -6689,6 +6697,7 @@ domain_suffix_set:
   - chasestudy.ac.uk
   - chat.com
   - chatango.com
+  - chatbotclaude.com
   - chatgpt.com
   - chatgpt.livekit.cloud
   - chatgpt.site
@@ -7158,10 +7167,16 @@ domain_suffix_set:
   - classymomsex.com
   - clau.de
   - claude.ai
+  - claude.app
   - claude.com
   - claude.dev
+  - claude.new
+  - claude.site
+  - claudeacademy.com
   - claudemcpclient.com
   - claudemcpcontent.com
+  - claudepages.dev
+  - claudestudio.com
   - claudeusercontent.com
   - clawhub.ai
   - clb.org.hk
@@ -7731,6 +7746,7 @@ domain_suffix_set:
   - cqcorea.com
   - crabporn.com
   - crackle.com
+  - craftifyx.com
   - craigslist.org
   - cral.ac.uk
   - cran.ac.uk
@@ -7857,6 +7873,7 @@ domain_suffix_set:
   - crypto.com
   - cryptocompare.com
   - cryptographyengineering.com
+  - cryptoid.info
   - cryptomus.com
   - crypton.co.jp
   - crysis.jp
@@ -8382,6 +8399,7 @@ domain_suffix_set:
   - delcamtv.com
   - delcamuniversity.com
   - delcamusa.com
+  - delets.cash
   - delets.online
   - delicious.com
   - delicious.com.au
@@ -11186,6 +11204,7 @@ domain_suffix_set:
   - fanbox.cc
   - fandango.com
   - fandom.com
+  - fanfiction.net
   - fanfictionero.com
   - fanfox.net
   - fangbinxing.com
@@ -11752,6 +11771,17 @@ domain_suffix_set:
   - fluids.ac.uk
   - flutter.dev
   - flutterapp.com
+  - fluxer.app
+  - fluxer.com
+  - fluxer.dev
+  - fluxer.gg
+  - fluxer.gift
+  - fluxer.media
+  - fluxer.tools
+  - fluxerapp.com
+  - fluxerstatic.com
+  - fluxerstatus.com
+  - fluxerusercontent.com
   - fly.dev
   - fly.io
   - flyflv.com
@@ -12366,6 +12396,7 @@ domain_suffix_set:
   - fundsupermart.com
   - funf.tw
   - funimation.com
+  - funko.com
   - funkyimg.com
   - funnyfacebook.org
   - funnyordie.com
@@ -12520,6 +12551,7 @@ domain_suffix_set:
   - game-repack.site
   - game735.com
   - gameapps.hk
+  - gamebanana.com
   - gamebase.com.tw
   - gamebeforethegame.com
   - gamebiz.jp
@@ -12850,6 +12882,7 @@ domain_suffix_set:
   - getporn.tv
   - getpricetag.com
   - getprintersupports.com
+  - getsafety.com
   - getscorecash.com
   - getsentry.com
   - getsession.org
@@ -13060,6 +13093,8 @@ domain_suffix_set:
   - glenfife.ac.uk
   - glenrothes-college.ac.uk
   - glhl.ac.uk
+  - glitchprod.com
+  - glitchproductions.store
   - glitchwave.com
   - gllm.ac.uk
   - global-sci.org
@@ -17926,6 +17961,7 @@ domain_suffix_set:
   - kun66.xyz
   - kundun1069.com
   - kurashsultan.com
+  - kurs.expert
   - kurtmunger.com
   - kusocity.com
   - kusugurizanmai.com
@@ -19038,6 +19074,7 @@ domain_suffix_set:
   - magicmovies.com
   - maglue.ac.uk
   - magnacartacollege.ac.uk
+  - magnific.com
   - mahabodhi.org
   - mahajantech.com
   - mahjongsoul.com
@@ -19078,6 +19115,7 @@ domain_suffix_set:
   - makemymood.com
   - makerepeater.jp
   - makesenseofdata.com
+  - makeship.com
   - makeshop.jp
   - makingassessmentcount.ac.uk
   - makingstartshere.com
@@ -20851,6 +20889,7 @@ domain_suffix_set:
   - mtec.ac.uk
   - mthruf.com
   - mti.ac.uk
+  - mts-link.ru
   - mts-ws.net
   - mts.ru
   - mtsbank.ru
@@ -23271,6 +23310,7 @@ domain_suffix_set:
   - owl-elearning.ac.uk
   - owl.li
   - owltail.com
+  - ownaj.com
   - owsc.ac.uk
   - owxd.xyz
   - ox.ac.uk
@@ -24696,6 +24736,7 @@ domain_suffix_set:
   - postimg.cc
   - postimg.org
   - postini.com
+  - postman.com
   - posty.kr
   - postyourgirls.ws
   - potato.im
@@ -25094,6 +25135,7 @@ domain_suffix_set:
   - pythonhosted.org
   - pythonic.life
   - pytorch.org
+  - pyup.io
   - pzforever.skin
   - pzforever01.homes
   - pzhanfor.today
@@ -25303,6 +25345,7 @@ domain_suffix_set:
   - r18lu-avi.shop
   - r18lu.com
   - r2.dev
+  - r2modman.com
   - r34porn.net
   - ra-review.ac.uk
   - ra.gg
@@ -26351,6 +26394,7 @@ domain_suffix_set:
   - safepal.com
   - safepodnetwork.ac.uk
   - safervpn.com
+  - safetycli.com
   - saffrontech.com
   - sagabank.co.jp
   - sage-observability.tech
@@ -28508,6 +28552,7 @@ domain_suffix_set:
   - stdoms.ac.uk
   - stealthex.io
   - steamconnecttest.com
+  - steamos.cloud
   - stec.ac.uk
   - steel-storm.com
   - steelbrick.com
@@ -29481,6 +29526,7 @@ domain_suffix_set:
   - tgirlpostop.com
   - tgp6.com
   - tgstat.com
+  - tgtime.store
   - tgtube.com
   - tgutube.com
   - th.hao123.com
@@ -29794,6 +29840,8 @@ domain_suffix_set:
   - thunderbird.net
   - thunderbolttechnology.net
   - thundermail.com
+  - thunderstore.io
+  - thunderstore.org
   - thurrock.ac.uk
   - thurrockcampus.ac.uk
   - thywords.com
@@ -30029,6 +30077,7 @@ domain_suffix_set:
   - tmei-taoyuan.com
   - tmi.me
   - tmiaf.ru
+  - tmimgcdn.com
   - tmn.ac.uk
   - tmpp.org
   - tmsnrt.rs
@@ -33230,6 +33279,7 @@ domain_suffix_set:
   - worldoftanks.eu
   - worldofwarcraft.com
   - worldofwarplanes.com
+  - worldofwarships.asia
   - worldofwarships.com
   - worldpopulationreview.com
   - worldpornvideos.com
@@ -34523,6 +34573,7 @@ domain_suffix_set:
   - youthforfreechina.org
   - youthnetradio.org
   - youthwant.com.tw
+  - youtooz.com
   - youtrack.cloud
   - youtrannytube.com
   - youtu.be
