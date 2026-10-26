@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite_DNS
-# 规则统计: 894
+# 规则统计: 905
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -108,7 +108,10 @@ domain_suffix_set:
   - bet365.com
   - betvictor.com
   - bibox.com
+  - bidobido.xyz
   - bigsound.org
+  - bikaios.xyz
+  - bikawebapp.com
   - binance.cc
   - binance.com
   - binance.me
@@ -214,6 +217,7 @@ domain_suffix_set:
   - disq.us
   - disqus.com
   - disquscdn.com
+  - diwodiwo.xyz
   - dler.io
   - dlive.tv
   - dmm.co.jp
@@ -229,6 +233,7 @@ domain_suffix_set:
   - duckduckgo.com
   - dueapp.com
   - dw.com
+  - e-hentai.org
   - earthcam.com
   - easybib.com
   - economist.com
@@ -243,6 +248,7 @@ domain_suffix_set:
   - etherscan.io
   - eurekavpt.com
   - evernote.com
+  - exhentai.org
   - extmatrix.com
   - eyny.com
   - f8.com
@@ -324,6 +330,7 @@ domain_suffix_set:
   - howtoforge.com
   - hoyolab.com
   - hoyoverse.com
+  - huakacomic.com
   - huffpost.com
   - hulu.com
   - humblebundle.com
@@ -407,6 +414,7 @@ domain_suffix_set:
   - macrumors.com
   - mailchimp.com
   - mangaup.jp
+  - manhuabika.com
   - manhuaren.com
   - marketwatch.com
   - mashable.com
@@ -506,6 +514,7 @@ domain_suffix_set:
   - phncdn.com
   - phprcdn.com
   - piaotian.net
+  - pica-id.com
   - picacomic.com
   - picjs.xyz
   - pinboard.in
@@ -683,6 +692,7 @@ domain_suffix_set:
   - tiny.cc
   - tinychat.com
   - tinypic.com
+  - tipatipa.xyz
   - tmagazine.com
   - tmblr.co
   - todoist.com
@@ -802,6 +812,7 @@ domain_suffix_set:
   - westca.com
   - westpoint.edu
   - whoer.net
+  - wikawika.xyz
   - wikibooks.org
   - wikidata.org
   - wikifunctions.org

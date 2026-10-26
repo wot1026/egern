@@ -1,5 +1,5 @@
 # 规则名称: Apple_All
-# 规则统计: 1603
+# 规则统计: 1602
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -1015,7 +1015,6 @@ domain_suffix_set:
   - icloud-isupport.com
   - icloud-sandbox.com
   - icloud.ch
-  - icloud.cn
   - icloud.com
   - icloud.com.cn
   - icloud.de
