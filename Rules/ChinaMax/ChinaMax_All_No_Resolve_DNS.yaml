@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax_All_No_Resolve_DNS
-# 规则统计: 110489
+# 规则统计: 110491
 # 用途: 仅供 dns.forward 的 proxy_rule_set 使用
 # 来源: blackmatrix7/ios_rule_script (与完整版同源)
 # 说明: 已剔除内容本质为 IPv4/IPv6 但被上游误标注为域名类型的行
@@ -34042,6 +34042,7 @@ domain_suffix_set:
   - fillersmart.com
   - fillseo.com
   - film-yuelongchina.com
+  - filmorigin.com
   - fily.fun
   - fim34s.com
   - fimmu.com
@@ -56557,6 +56558,7 @@ domain_suffix_set:
   - kakappt.com
   - kakashuzi.net
   - kakatx.com
+  - kakaxing.com
   - kakayuy.net
   - kaken-china.com
   - kaku-scdn.com

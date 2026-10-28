@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_All
-# 规则统计: 110082
+# 规则统计: 110084
 # 来源: blackmatrix7/ios_rule_script
 
 domain_set:
@@ -33922,6 +33922,7 @@ domain_suffix_set:
   - fillersmart.com
   - fillseo.com
   - film-yuelongchina.com
+  - filmorigin.com
   - fily.fun
   - fim34s.com
   - fimmu.com
@@ -56170,6 +56171,7 @@ domain_suffix_set:
   - kakappt.com
   - kakashuzi.net
   - kakatx.com
+  - kakaxing.com
   - kakayuy.net
   - kaken-china.com
   - kaku-scdn.com
